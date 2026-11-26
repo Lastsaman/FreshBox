@@ -1,6 +1,6 @@
 {
   "name": "freshbox",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "FreshBox - نصب سریع نرم‌افزارهای ضروری ویندوز تازه",
   "main": "main.js",
   "type": "commonjs",
