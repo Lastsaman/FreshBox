@@ -11,7 +11,7 @@
       "status": 200,
       "finalUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
     },
-    "checkedAt": "2026-11-25T23:46:52.654Z"
+    "checkedAt": "2026-11-26T12:46:04.105Z"
   },
   {
     "id": "Mozilla.Firefox",
@@ -25,21 +25,7 @@
       "status": 200,
       "finalUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0.1/win64/en-US/Firefox%20Setup%20160.0.1.exe"
     },
-    "checkedAt": "2026-11-25T23:46:52.517Z"
-  },
-  {
-    "id": "Brave.Brave",
-    "name": "Brave",
-    "manifestOk": true,
-    "version": "158.1.100.58",
-    "homepage": "https://brave.com",
-    "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.100.58/BraveBrowserStandaloneSilentSetup.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/110178895/f0295aa8-1bfc-43f2-acf5-438078857109?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A12Z&rscd=attachment%3B+filename%3DBraveBrowserStandaloneSilentSetup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A45Z&ske=2026-11-26T00%3A37%3A12Z&sks=b&skv=2018-11-09&sig=deoRiSu8GZsma8dHSoS6Y%2BtNifeu5wOoKjfrsWAkJV0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDAxMSwibmJmIjoxNzk1NjUwNDExLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.p-UTac53uwlGAL1aDopnQulhig3E_orCQ3a7_wpfb88&response-content-disposition=attachment%3B%20filename%3DBraveBrowserStandaloneSilentSetup.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:46:53.668Z"
+    "checkedAt": "2026-11-26T12:46:04.364Z"
   },
   {
     "id": "Microsoft.Edge",
@@ -52,7 +38,21 @@
       "status": 200,
       "finalUrl": "https://download.microsoft.com/download/6a05dff7-d4e0-4e1f-a773-efe3f9c17341/MicrosoftEdgeEnterpriseX64.msi"
     },
-    "checkedAt": "2026-11-25T23:46:52.701Z"
+    "checkedAt": "2026-11-26T12:46:04.800Z"
+  },
+  {
+    "id": "Brave.Brave",
+    "name": "Brave",
+    "manifestOk": true,
+    "version": "158.1.100.58",
+    "homepage": "https://brave.com",
+    "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.100.58/BraveBrowserStandaloneSilentSetup.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/110178895/f0295aa8-1bfc-43f2-acf5-438078857109?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A43Z&rscd=attachment%3B+filename%3DBraveBrowserStandaloneSilentSetup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A33Z&ske=2026-11-26T13%3A25%3A43Z&sks=b&skv=2018-11-09&sig=hRr3YMka2JzR%2FomV0AtpWqdP84Au1iVQj638f9lPq1Q%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc2MywibmJmIjoxNzk1Njk3MTYzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.uMEUzLt0oQGRVa1IZOG1THvRHJkxw3D-73tfujhlhhE&response-content-disposition=attachment%3B%20filename%3DBraveBrowserStandaloneSilentSetup.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:05.100Z"
   },
   {
     "id": "Vivaldi.Vivaldi",
@@ -66,7 +66,7 @@
       "status": 200,
       "finalUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.47.x64.exe"
     },
-    "checkedAt": "2026-11-25T23:46:54.943Z"
+    "checkedAt": "2026-11-26T12:46:05.213Z"
   },
   {
     "id": "Opera.Opera",
@@ -80,7 +80,7 @@
       "status": 200,
       "finalUrl": "https://get.geo.opera.com/pub/opera/desktop/140.0.6074.36/win/Opera_140.0.6074.36_Setup_x64.exe"
     },
-    "checkedAt": "2026-11-25T23:46:55.200Z"
+    "checkedAt": "2026-11-26T12:46:05.537Z"
   },
   {
     "id": "TorProject.TorBrowser",
@@ -94,21 +94,7 @@
       "status": 200,
       "finalUrl": "https://archive.torproject.org/tor-package-archive/torbrowser/16.0.3/tor-browser-windows-x86_64-portable-16.0.3.exe"
     },
-    "checkedAt": "2026-11-25T23:46:55.396Z"
-  },
-  {
-    "id": "Telegram.TelegramDesktop",
-    "name": "Telegram",
-    "manifestOk": true,
-    "version": "7.4.6",
-    "homepage": "https://telegram.org/",
-    "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.6/td-setup-win-x64-7.4.6.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/19374812/46bdb53e-4b6d-46b3-81f0-ccc3792fcb05?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A16Z&rscd=attachment%3B+filename%3Dtd-setup-win-x64-7.4.6.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A47Z&ske=2026-11-26T00%3A36%3A16Z&sks=b&skv=2018-11-09&sig=wrPGlDLOxYSTuqeALDb5%2FrOG5Gc7NPcXSUnuvRBJVDQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjIxNCwibmJmIjoxNzk1NjUwNDE0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.aPyqSPq946jOVlGG19k0fQ838CBOWRnEuE-xGu81e1k&response-content-disposition=attachment%3B%20filename%3Dtd-setup-win-x64-7.4.6.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:46:56.299Z"
+    "checkedAt": "2026-11-26T12:46:05.968Z"
   },
   {
     "id": "Discord.Discord",
@@ -122,7 +108,7 @@
       "status": 200,
       "finalUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9270/DiscordSetup.exe"
     },
-    "checkedAt": "2026-11-25T23:46:57.277Z"
+    "checkedAt": "2026-11-26T12:46:06.047Z"
   },
   {
     "id": "OpenWhisperSystems.Signal",
@@ -136,21 +122,21 @@
       "status": 200,
       "finalUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.36.0.exe"
     },
-    "checkedAt": "2026-11-25T23:46:57.382Z"
+    "checkedAt": "2026-11-26T12:46:06.368Z"
   },
   {
-    "id": "Zoom.Zoom",
-    "name": "Zoom",
+    "id": "Telegram.TelegramDesktop",
+    "name": "Telegram",
     "manifestOk": true,
-    "version": "7.2.51704",
-    "homepage": "https://zoom.us/",
-    "installerUrl": "https://zoom.us/client/7.2.5.51704/ZoomInstallerFull.msi?archType=x64",
+    "version": "7.4.6",
+    "homepage": "https://telegram.org/",
+    "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.6/td-setup-win-x64-7.4.6.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://cdn.zoom.us/prod/7.2.5.51704/x64/ZoomInstallerFull.msi"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/19374812/46bdb53e-4b6d-46b3-81f0-ccc3792fcb05?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A37Z&rscd=attachment%3B+filename%3Dtd-setup-win-x64-7.4.6.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A56Z&ske=2026-11-26T13%3A30%3A37Z&sks=b&skv=2018-11-09&sig=39pZDhCoQRbm50ST5oXtCbIErMu9pEj%2FXl4fu5XzAcA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk2NSwibmJmIjoxNzk1Njk3MTY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.kJMEt742lME1B-oCmO6TgkKYObSlnmcBL0fMlQt9KMA&response-content-disposition=attachment%3B%20filename%3Dtd-setup-win-x64-7.4.6.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:46:58.690Z"
+    "checkedAt": "2026-11-26T12:46:06.714Z"
   },
   {
     "id": "Microsoft.Teams",
@@ -164,7 +150,7 @@
       "status": 200,
       "finalUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26304.1207.5384.858/MSTeams-x64.msix"
     },
-    "checkedAt": "2026-11-25T23:46:58.485Z"
+    "checkedAt": "2026-11-26T12:46:06.872Z"
   },
   {
     "id": "SlackTechnologies.Slack",
@@ -178,174 +164,7 @@
       "status": 200,
       "finalUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.53.292/SlackSetup.exe"
     },
-    "checkedAt": "2026-11-25T23:46:59.497Z"
-  },
-  {
-    "id": "Beeper.Beeper",
-    "name": "Beeper",
-    "manifestOk": true,
-    "version": "4.3.352",
-    "homepage": "https://www.beeper.com/",
-    "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe"
-    },
-    "checkedAt": "2026-11-25T23:46:59.919Z"
-  },
-  {
-    "id": "Mozilla.Thunderbird",
-    "name": "Thunderbird",
-    "manifestOk": true,
-    "version": "161.0",
-    "homepage": "https://www.mozilla.org/",
-    "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/161.0/win64/en-US/Thunderbird%20Setup%20161.0.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/161.0/win64/en-US/Thunderbird%20Setup%20161.0.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:00.806Z"
-  },
-  {
-    "id": "7zip.7zip",
-    "name": "7-Zip",
-    "manifestOk": true,
-    "version": "26.06",
-    "homepage": "https://7-zip.org/",
-    "installerUrl": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.msi",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/466446150/d4063af2-a1a7-4e25-8988-9f1dd8ceae55?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A34Z&rscd=attachment%3B+filename%3D7z2606-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A23Z&ske=2026-11-26T00%3A36%3A34Z&sks=b&skv=2018-11-09&sig=eontfEQ5V3MNtz%2Faejpe32TjWEUFa4XhwasE8Z9yrMY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDcxNSwibmJmIjoxNzk1NjUwNDE1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Wx7upIz3fS2_fvqMQN46eYcI5-McL93uirI1451cYcg&response-content-disposition=attachment%3B%20filename%3D7z2606-x64.msi&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:01.667Z"
-  },
-  {
-    "id": "RARLab.WinRAR",
-    "name": "WinRAR",
-    "manifestOk": true,
-    "version": "7.23.0",
-    "homepage": "https://www.rarlab.com/",
-    "installerUrl": "https://www.rarlab.com/rar/winrar-x64-723.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.rarlab.com/rar/winrar-x64-723.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:03.107Z"
-  },
-  {
-    "id": "voidtools.Everything",
-    "name": "Everything",
-    "manifestOk": true,
-    "version": "1.4.1.1032",
-    "homepage": "https://www.voidtools.com/",
-    "installerUrl": "https://www.voidtools.com/Everything-1.4.1.1032.x64.msi",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.voidtools.com/Everything-1.4.1.1032.x64.msi"
-    },
-    "checkedAt": "2026-11-25T23:47:02.563Z"
-  },
-  {
-    "id": "Tonec.InternetDownloadManager",
-    "name": "Internet Download Manager",
-    "manifestOk": true,
-    "version": "6.43.18",
-    "homepage": "https://www.internetdownloadmanager.com/",
-    "installerUrl": "https://download.internetdownloadmanager.com/idman643build18.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://download.internetdownloadmanager.com/idman643build18.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:03.367Z"
-  },
-  {
-    "id": "9NKSQGP7F2NH",
-    "name": "WhatsApp",
-    "manifestOk": true,
-    "version": "Unknown",
-    "homepage": "http://whatsapp.com/",
-    "link": {
-      "ok": true,
-      "kind": "store-product",
-      "note": "Store identity verified; direct installer is managed by Microsoft Store"
-    },
-    "checkedAt": "2026-11-25T23:49:23.353Z"
-  },
-  {
-    "id": "qBittorrent.qBittorrent",
-    "name": "qBittorrent",
-    "manifestOk": true,
-    "version": "5.3.1",
-    "homepage": "https://www.qbittorrent.org/",
-    "installerUrl": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.3.1/qbittorrent_5.3.1_x64_setup.exe/download",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://master.dl.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.3.1/qbittorrent_5.3.1_x64_setup.exe?viasf=1&fid=2d7b73f15840fc00&e=1795736824&st=XeVFbHPKvHmpCZlskFEy5Q"
-    },
-    "checkedAt": "2026-11-25T23:47:06.903Z"
-  },
-  {
-    "id": "AppWork.JDownloader",
-    "name": "JDownloader 2",
-    "manifestOk": true,
-    "version": "2.0",
-    "homepage": "https://jdownloader.org",
-    "installerUrl": "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-amd64_v1_8_0_482.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-amd64_v1_8_0_482.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:05.277Z"
-  },
-  {
-    "id": "FastCopy.FastCopy",
-    "name": "FastCopy",
-    "manifestOk": true,
-    "version": "5.12.0",
-    "homepage": "https://fastcopy.jp/",
-    "installerUrl": "https://fastcopy.jp/archive/FastCopy5.12.0_installer.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://raw.githubusercontent.com/FastCopyLab/FastCopyDist2/main/FastCopy5.12.0_installer.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:09.280Z"
-  },
-  {
-    "id": "CodeSector.TeraCopy",
-    "name": "TeraCopy",
-    "manifestOk": true,
-    "version": "4.0.5",
-    "homepage": "https://codesector.com/",
-    "installerUrl": "https://codesector.com/files/teracopy4.0.5.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://codesector.nyc3.cdn.digitaloceanspaces.com/teracopy4.0.5.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:06.972Z"
-  },
-  {
-    "id": "Ghisler.TotalCommander",
-    "name": "Total Commander",
-    "manifestOk": true,
-    "version": "11.58.1",
-    "homepage": "https://www.ghisler.com/",
-    "installerUrl": "https://totalcommander.ch/115801/tcmd115801x64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://totalcommander.ch/115801/tcmd115801x64.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:07.904Z"
+    "checkedAt": "2026-11-26T12:46:07.500Z"
   },
   {
     "id": "Rakuten.Viber",
@@ -359,7 +178,215 @@
       "status": 200,
       "finalUrl": "https://download.cdn.viber.com/desktop/windows/29.7.0/ViberSetup.msi"
     },
-    "checkedAt": "2026-11-25T23:49:24.641Z"
+    "checkedAt": "2026-11-26T12:46:07.848Z"
+  },
+  {
+    "id": "Zoom.Zoom",
+    "name": "Zoom",
+    "manifestOk": true,
+    "version": "7.2.51704",
+    "homepage": "https://zoom.us/",
+    "installerUrl": "https://zoom.us/client/7.2.5.51704/ZoomInstallerFull.msi?archType=x64",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://cdn.zoom.us/prod/7.2.5.51704/x64/ZoomInstallerFull.msi"
+    },
+    "checkedAt": "2026-11-26T12:46:07.988Z"
+  },
+  {
+    "id": "9NKSQGP7F2NH",
+    "name": "WhatsApp",
+    "manifestOk": true,
+    "version": "Unknown",
+    "homepage": "http://whatsapp.com/",
+    "link": {
+      "ok": true,
+      "kind": "store-product",
+      "note": "Store identity verified; direct installer is managed by Microsoft Store"
+    },
+    "checkedAt": "2026-11-26T12:46:08.253Z"
+  },
+  {
+    "id": "Beeper.Beeper",
+    "name": "Beeper",
+    "manifestOk": true,
+    "version": "4.3.352",
+    "homepage": "https://www.beeper.com/",
+    "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:08.506Z"
+  },
+  {
+    "id": "Mozilla.Thunderbird",
+    "name": "Thunderbird",
+    "manifestOk": true,
+    "version": "161.0",
+    "homepage": "https://www.mozilla.org/",
+    "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/161.0/win64/en-US/Thunderbird%20Setup%20161.0.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/161.0/win64/en-US/Thunderbird%20Setup%20161.0.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:08.763Z"
+  },
+  {
+    "id": "7zip.7zip",
+    "name": "7-Zip",
+    "manifestOk": true,
+    "version": "26.06",
+    "homepage": "https://7-zip.org/",
+    "installerUrl": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/466446150/d4063af2-a1a7-4e25-8988-9f1dd8ceae55?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A32Z&rscd=attachment%3B+filename%3D7z2606-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A33Z&ske=2026-11-26T13%3A27%3A32Z&sks=b&skv=2018-11-09&sig=e2lvZQ%2FXilWBuVg4ZzeJ7Heqz9bROsr6wkVTpu8FnB0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ0NSwibmJmIjoxNzk1Njk3MTQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._WIR-i1E0Ez6RuRGBtEV26zNQ-inA1l3R2xoCLuiwLM&response-content-disposition=attachment%3B%20filename%3D7z2606-x64.msi&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:09.553Z"
+  },
+  {
+    "id": "voidtools.Everything",
+    "name": "Everything",
+    "manifestOk": true,
+    "version": "1.4.1.1032",
+    "homepage": "https://www.voidtools.com/",
+    "installerUrl": "https://www.voidtools.com/Everything-1.4.1.1032.x64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.voidtools.com/Everything-1.4.1.1032.x64.msi"
+    },
+    "checkedAt": "2026-11-26T12:46:09.626Z"
+  },
+  {
+    "id": "RARLab.WinRAR",
+    "name": "WinRAR",
+    "manifestOk": true,
+    "version": "7.23.0",
+    "homepage": "https://www.rarlab.com/",
+    "installerUrl": "https://www.rarlab.com/rar/winrar-x64-723.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.rarlab.com/rar/winrar-x64-723.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:09.707Z"
+  },
+  {
+    "id": "Giorgiotani.Peazip",
+    "name": "PeaZip",
+    "manifestOk": true,
+    "version": "11.4.0",
+    "homepage": "https://peazip.github.io/",
+    "installerUrl": "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WIN64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/1076980/71388277-e1db-427c-8146-2e3388f547cf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A45Z&rscd=attachment%3B+filename%3Dpeazip-11.4.0.WIN64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A34Z&ske=2026-11-26T13%3A26%3A45Z&sks=b&skv=2018-11-09&sig=hu%2FCc5hB8BuWC%2Bjp6gfsKBTz74q6DFuRiDcLGWzrYIg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk2OCwibmJmIjoxNzk1Njk3MTY4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.b3ibnrgymitIYAtzIrqW0v7C1ny37vElYx5zZyB2F_g&response-content-disposition=attachment%3B%20filename%3Dpeazip-11.4.0.WIN64.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:10.131Z"
+  },
+  {
+    "id": "Tonec.InternetDownloadManager",
+    "name": "Internet Download Manager",
+    "manifestOk": true,
+    "version": "6.43.19",
+    "homepage": "https://www.internetdownloadmanager.com/",
+    "installerUrl": "https://download.internetdownloadmanager.com/idman643build19.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://download.internetdownloadmanager.com/idman643build19.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:10.448Z"
+  },
+  {
+    "id": "SoftDeluxe.FreeDownloadManager",
+    "name": "Free Download Manager",
+    "manifestOk": true,
+    "version": "6.36.0.7128",
+    "installerUrl": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:10.722Z"
+  },
+  {
+    "id": "AppWork.JDownloader",
+    "name": "JDownloader 2",
+    "manifestOk": true,
+    "version": "2.0",
+    "homepage": "https://jdownloader.org",
+    "installerUrl": "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-amd64_v1_8_0_482.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-amd64_v1_8_0_482.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:11.260Z"
+  },
+  {
+    "id": "qBittorrent.qBittorrent",
+    "name": "qBittorrent",
+    "manifestOk": true,
+    "version": "5.3.1",
+    "homepage": "https://www.qbittorrent.org/",
+    "installerUrl": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.3.1/qbittorrent_5.3.1_x64_setup.exe/download",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://netactuate.dl.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.3.1/qbittorrent_5.3.1_x64_setup.exe?viasf=1&fid=2d7b73f15840fc00&e=1795783570&st=e_qoa6et2YbxeYfJ915EMg"
+    },
+    "checkedAt": "2026-11-26T12:46:12.110Z"
+  },
+  {
+    "id": "Ghisler.TotalCommander",
+    "name": "Total Commander",
+    "manifestOk": true,
+    "version": "11.58.1",
+    "homepage": "https://www.ghisler.com/",
+    "installerUrl": "https://totalcommander.ch/115801/tcmd115801x64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://totalcommander.ch/115801/tcmd115801x64.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:12.387Z"
+  },
+  {
+    "id": "CodeSector.TeraCopy",
+    "name": "TeraCopy",
+    "manifestOk": true,
+    "version": "4.0.5",
+    "homepage": "https://codesector.com/",
+    "installerUrl": "https://codesector.com/files/teracopy4.0.5.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://codesector.nyc3.cdn.digitaloceanspaces.com/teracopy4.0.5.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:12.635Z"
+  },
+  {
+    "id": "alexx2000.DoubleCommander",
+    "name": "Double Commander",
+    "manifestOk": true,
+    "version": "1.2.11",
+    "homepage": "https://github.com/doublecmd",
+    "installerUrl": "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.x86_64-win64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/122294881/a2c36b12-c3be-486a-a17a-96bbe9298062?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A37Z&rscd=attachment%3B+filename%3Ddoublecmd-1.2.11.x86_64-win64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A42Z&ske=2026-11-26T13%3A30%3A37Z&sks=b&skv=2018-11-09&sig=7lK7cG8PfkVZia0NIk58vy%2Bk1cNosfWN4bHiZ1WXPMM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3MiwibmJmIjoxNzk1Njk3MTcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.drnOCSNIV1FqSC2_udcZiz2nLhSy526x9rywUDJjnm8&response-content-disposition=attachment%3B%20filename%3Ddoublecmd-1.2.11.x86_64-win64.msi&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:13.756Z"
   },
   {
     "id": "Rufus.Rufus",
@@ -371,9 +398,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/2810292/d1103668-30f9-45bc-9882-a97d17b757b0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A55Z&rscd=attachment%3B+filename%3Drufus-4.16.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A08Z&ske=2026-11-26T00%3A37%3A55Z&sks=b&skv=2018-11-09&sig=l8SnOgpKTTqYelpSPFPGxA%2FhRv0Vk0Y09r2R2Ovrzpc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDcyNywibmJmIjoxNzk1NjUwNDI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.VVlujVXFD4DHQk2o24kPlZ2U9NTqQ2obDlzbuZQqFxw&response-content-disposition=attachment%3B%20filename%3Drufus-4.16.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/2810292/d1103668-30f9-45bc-9882-a97d17b757b0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A38Z&rscd=attachment%3B+filename%3Drufus-4.16.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A48Z&ske=2026-11-26T13%3A27%3A38Z&sks=b&skv=2018-11-09&sig=rnzz5VCrzpujzaUxpH0NEuY3V22TZ4bTwjrcOwxGuOI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ3MiwibmJmIjoxNzk1Njk3MTcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.C9GQBbPPRj5VXTTbiq1BYsEQpX68a0WxxELqtgLUskg&response-content-disposition=attachment%3B%20filename%3Drufus-4.16.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:09.658Z"
+    "checkedAt": "2026-11-26T12:46:14.007Z"
   },
   {
     "id": "Ventoy.Ventoy",
@@ -385,9 +412,23 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/246335987/05386eb0-c1f1-4c46-a9f9-ef62d9dfa65f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A33%3A20Z&rscd=attachment%3B+filename%3Dventoy-1.1.18-windows.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A33%3A01Z&ske=2026-11-26T00%3A33%3A20Z&sks=b&skv=2018-11-09&sig=qqGUQc5%2FxVz0Ff1hVMNogJfiUeLPh%2BxUzuoxFDiPeQc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjIyOCwibmJmIjoxNzk1NjUwNDI4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.atgF6sGdD9566UAvizVRHWSTxQ35lrckT6fStRmuC-o&response-content-disposition=attachment%3B%20filename%3Dventoy-1.1.18-windows.zip&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/246335987/05386eb0-c1f1-4c46-a9f9-ef62d9dfa65f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A52Z&rscd=attachment%3B+filename%3Dventoy-1.1.18-windows.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A24Z&ske=2026-11-26T13%3A25%3A52Z&sks=b&skv=2018-11-09&sig=dgxFnwQNe2KJrJYf%2BBeKLjgEyACq3puznX6l5eFd0RA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3MiwibmJmIjoxNzk1Njk3MTcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.drnOCSNIV1FqSC2_udcZiz2nLhSy526x9rywUDJjnm8&response-content-disposition=attachment%3B%20filename%3Dventoy-1.1.18-windows.zip&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:10.133Z"
+    "checkedAt": "2026-11-26T12:46:14.231Z"
+  },
+  {
+    "id": "FastCopy.FastCopy",
+    "name": "FastCopy",
+    "manifestOk": true,
+    "version": "5.12.0",
+    "homepage": "https://fastcopy.jp/",
+    "installerUrl": "https://fastcopy.jp/archive/FastCopy5.12.0_installer.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/FastCopyLab/FastCopyDist2/main/FastCopy5.12.0_installer.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:14.375Z"
   },
   {
     "id": "Balena.Etcher",
@@ -399,37 +440,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/45055693/6f9f26c7-fa86-4262-9d11-0685e13f2df3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A38%3A44Z&rscd=attachment%3B+filename%3DbalenaEtcher-2.1.9.Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A47Z&ske=2026-11-26T00%3A38%3A44Z&sks=b&skv=2018-11-09&sig=vLD7yxa%2BoqC3WcuQnh8GKETpGPuncW90fsjXVYGbFtE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDAyOCwibmJmIjoxNzk1NjUwNDI4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8xVYAJd_b4lIkNAbf4XoU_EWYiJL2St6RrkkjnCxiJo&response-content-disposition=attachment%3B%20filename%3DbalenaEtcher-2.1.9.Setup.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/45055693/6f9f26c7-fa86-4262-9d11-0685e13f2df3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A12Z&rscd=attachment%3B+filename%3DbalenaEtcher-2.1.9.Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A49Z&ske=2026-11-26T13%3A27%3A12Z&sks=b&skv=2018-11-09&sig=3a964Jec6oYDXPQHBaikruQN5ttYqH%2FxITRjOWIph7M%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc3MywibmJmIjoxNzk1Njk3MTczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jTYq-kit8SdxxISDPaQ7wT5tVsVbeJTHPvp4R-6CXJs&response-content-disposition=attachment%3B%20filename%3DbalenaEtcher-2.1.9.Setup.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:10.788Z"
-  },
-  {
-    "id": "VideoLAN.VLC",
-    "name": "VLC",
-    "manifestOk": true,
-    "version": "3.0.24",
-    "homepage": "https://www.videolan.org/",
-    "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.msi",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "http://volico.mm.fcix.net/videolan-ftp/vlc/3.0.24/win64/vlc-3.0.24-win64.msi"
-    },
-    "checkedAt": "2026-11-25T23:47:15.936Z"
-  },
-  {
-    "id": "clsid2.mpc-hc",
-    "name": "MPC-HC",
-    "manifestOk": true,
-    "version": "2.8.5",
-    "homepage": "https://github.com/clsid2/mpc-hc",
-    "installerUrl": "https://github.com/clsid2/mpc-hc/releases/download/2.8.5/MPC-HC.2.8.5.x64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/91570348/0f4cf26c-dd99-4632-9c6b-0497e5c047c0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A38%3A34Z&rscd=attachment%3B+filename%3DMPC-HC.2.8.5.x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A38%3A25Z&ske=2026-11-26T00%3A38%3A34Z&sks=b&skv=2018-11-09&sig=pBFVekNnwZW93YWClPLnWwIbrUSRC3LTU0ZbWknR6iU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjIzMCwibmJmIjoxNzk1NjUwNDMwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EU-K_F7y56d673JtCCBBerEHK4529s3AatnCpA0jb1w&response-content-disposition=attachment%3B%20filename%3DMPC-HC.2.8.5.x64.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:12.819Z"
+    "checkedAt": "2026-11-26T12:46:15.372Z"
   },
   {
     "id": "CodecGuide.K-LiteCodecPack.Standard",
@@ -443,7 +456,21 @@
       "status": 200,
       "finalUrl": "https://files2.codecguide.com/K-Lite_Codec_Pack_2020_Standard.exe"
     },
-    "checkedAt": "2026-11-25T23:47:13.326Z"
+    "checkedAt": "2026-11-26T12:46:15.850Z"
+  },
+  {
+    "id": "clsid2.mpc-hc",
+    "name": "MPC-HC",
+    "manifestOk": true,
+    "version": "2.8.5",
+    "homepage": "https://github.com/clsid2/mpc-hc",
+    "installerUrl": "https://github.com/clsid2/mpc-hc/releases/download/2.8.5/MPC-HC.2.8.5.x64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/91570348/0f4cf26c-dd99-4632-9c6b-0497e5c047c0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A18Z&rscd=attachment%3B+filename%3DMPC-HC.2.8.5.x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A46Z&ske=2026-11-26T13%3A27%3A18Z&sks=b&skv=2018-11-09&sig=x9VRUEjylV0RzIMjFKdBoEn5legmIq7nF%2BAaqjCWwUg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3NCwibmJmIjoxNzk1Njk3MTc0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZIoNvDdwGbArr8B1r_ZfqHpB8uOHjmYPYRZg2bRY7oM&response-content-disposition=attachment%3B%20filename%3DMPC-HC.2.8.5.x64.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:15.867Z"
   },
   {
     "id": "Spotify.Spotify",
@@ -457,7 +484,7 @@
       "status": 200,
       "finalUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
     },
-    "checkedAt": "2026-11-25T23:47:13.145Z"
+    "checkedAt": "2026-11-26T12:46:16.585Z"
   },
   {
     "id": "PeterPawlowski.foobar2000",
@@ -471,7 +498,7 @@
       "status": 200,
       "finalUrl": "https://www.foobar2000.org/files/foobar2000-x64_v2.26.3.exe"
     },
-    "checkedAt": "2026-11-25T23:47:16.091Z"
+    "checkedAt": "2026-11-26T12:46:17.007Z"
   },
   {
     "id": "Audacity.Audacity",
@@ -483,9 +510,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/32921736/f3c31e53-bc56-46db-b173-a13652ebb68e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A03Z&rscd=attachment%3B+filename%3Daudacity-win-4.0.2-x86_64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A41Z&ske=2026-11-26T00%3A35%3A03Z&sks=b&skv=2018-11-09&sig=mHUAwodx6O97km8MbPPQL2jzn3XHLMDRYMdDo93L3D8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjIzNCwibmJmIjoxNzk1NjUwNDM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.78ZC5hJZUMwxxHNBWVJAQ_MrWkAi60IqDQ5ydXbsGWA&response-content-disposition=attachment%3B%20filename%3Daudacity-win-4.0.2-x86_64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/32921736/f3c31e53-bc56-46db-b173-a13652ebb68e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A42Z&rscd=attachment%3B+filename%3Daudacity-win-4.0.2-x86_64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A38Z&ske=2026-11-26T13%3A26%3A42Z&sks=b&skv=2018-11-09&sig=ffSHImWAkgBjuOSrWbip%2FHOZuoCxyNnAdnzPRfN4Jxo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3NSwibmJmIjoxNzk1Njk3MTc1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.kb9V_tY5PdC7pgtPtg2nKijDgXm5-cRji8wy5hOmSTw&response-content-disposition=attachment%3B%20filename%3Daudacity-win-4.0.2-x86_64.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:16.749Z"
+    "checkedAt": "2026-11-26T12:46:17.479Z"
   },
   {
     "id": "HandBrake.HandBrake",
@@ -497,23 +524,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/41215835/b44e1d52-cebe-4d32-a30f-20acc6e80d96?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A21Z&rscd=attachment%3B+filename%3DHandBrake-1.11.2-x86_64-Win_GUI.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A46Z&ske=2026-11-26T00%3A35%3A21Z&sks=b&skv=2018-11-09&sig=MRg%2Bbc0814cTy4GRX6pErNjtd0OszAAKtujQYs4HwY8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjIzNywibmJmIjoxNzk1NjUwNDM3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.x0fgPJXBu8v6PFyb7fn6EjLAAckXw7l3K-HvcS01Yv8&response-content-disposition=attachment%3B%20filename%3DHandBrake-1.11.2-x86_64-Win_GUI.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/41215835/b44e1d52-cebe-4d32-a30f-20acc6e80d96?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A30Z&rscd=attachment%3B+filename%3DHandBrake-1.11.2-x86_64-Win_GUI.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A28Z&ske=2026-11-26T13%3A25%3A30Z&sks=b&skv=2018-11-09&sig=e%2BrSNr8zkuIt5AdsqXE%2FL3rhofG4NlL3HZmDmjF9wUQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3NiwibmJmIjoxNzk1Njk3MTc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SQGwN-6l2RrhXDZxfeX4kRtn3zk0yyelRPn4LE_ERAo&response-content-disposition=attachment%3B%20filename%3DHandBrake-1.11.2-x86_64-Win_GUI.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:19.291Z"
-  },
-  {
-    "id": "Gyan.FFmpeg",
-    "name": "FFmpeg",
-    "manifestOk": true,
-    "version": "9.1",
-    "homepage": "https://www.gyan.dev/",
-    "installerUrl": "https://github.com/GyanD/codexffmpeg/releases/download/9.1/ffmpeg-9.1-full_build.zip",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/306803927/5777cffa-965d-4de4-ae32-6451c8c9bf34?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A26%3A05Z&rscd=attachment%3B+filename%3Dffmpeg-9.1-full_build.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A25%3A36Z&ske=2026-11-26T00%3A26%3A05Z&sks=b&skv=2018-11-09&sig=0HwSRnNIJeXVWchdozXdBsqeR4lnuYljOjJJ5WDyfJk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1Mzk3MywibmJmIjoxNzk1NjUwMzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Y5qfOcGhCrgbuzgC8osS6W9zxeacbwye90Z3coRUl1A&response-content-disposition=attachment%3B%20filename%3Dffmpeg-9.1-full_build.zip&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:19.368Z"
+    "checkedAt": "2026-11-26T12:46:18.189Z"
   },
   {
     "id": "MediaArea.MediaInfo.GUI",
@@ -527,7 +540,35 @@
       "status": 200,
       "finalUrl": "https://mediaarea.net/download/binary/mediainfo-gui/26.10/MediaInfo_GUI_26.10_Windows.exe"
     },
-    "checkedAt": "2026-11-25T23:47:19.348Z"
+    "checkedAt": "2026-11-26T12:46:18.372Z"
+  },
+  {
+    "id": "Gyan.FFmpeg",
+    "name": "FFmpeg",
+    "manifestOk": true,
+    "version": "9.1",
+    "homepage": "https://www.gyan.dev/",
+    "installerUrl": "https://github.com/GyanD/codexffmpeg/releases/download/9.1/ffmpeg-9.1-full_build.zip",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/306803927/5777cffa-965d-4de4-ae32-6451c8c9bf34?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A29Z&rscd=attachment%3B+filename%3Dffmpeg-9.1-full_build.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A15Z&ske=2026-11-26T13%3A25%3A29Z&sks=b&skv=2018-11-09&sig=mOSNICRG%2B%2FsF6CWoGNGbYh8IXTbDD2JA%2BWv8IxxYgSU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDcwNSwibmJmIjoxNzk1Njk3MTA1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._WeQSQPYBtatl2xclQ6ZesAINWmKk128wtGMdzRaLRk&response-content-disposition=attachment%3B%20filename%3Dffmpeg-9.1-full_build.zip&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:18.547Z"
+  },
+  {
+    "id": "VideoLAN.VLC",
+    "name": "VLC",
+    "manifestOk": true,
+    "version": "3.0.24",
+    "homepage": "https://www.videolan.org/",
+    "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mirrors.middlendian.com/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.msi"
+    },
+    "checkedAt": "2026-11-26T12:46:19.123Z"
   },
   {
     "id": "MoritzBunkus.MKVToolNix",
@@ -541,7 +582,7 @@
       "status": 200,
       "finalUrl": "https://mkvtoolnix.download/windows/releases/103.0/mkvtoolnix-64-bit-103.0-setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:19.640Z"
+    "checkedAt": "2026-11-26T12:46:19.300Z"
   },
   {
     "id": "Nikse.SubtitleEdit",
@@ -553,37 +594,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/16473585/7f8660d8-c74d-43db-a3e2-0770d8e4e179?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A20Z&rscd=attachment%3B+filename%3DSubtitleEdit-Windows-x64-Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A43Z&ske=2026-11-26T00%3A36%3A20Z&sks=b&skv=2018-11-09&sig=WzeHfuRZ6gsFiT18Hkys9PMA9dkpuzU7de415Vn8Akg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI0MCwibmJmIjoxNzk1NjUwNDQwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.LmaFIqZ4yrgPmzj54PTyDPAPWhOojdJfCqgKW8tSel8&response-content-disposition=attachment%3B%20filename%3DSubtitleEdit-Windows-x64-Setup.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/16473585/7f8660d8-c74d-43db-a3e2-0770d8e4e179?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A51Z&rscd=attachment%3B+filename%3DSubtitleEdit-Windows-x64-Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A30%3A00Z&ske=2026-11-26T13%3A30%3A51Z&sks=b&skv=2018-11-09&sig=W%2F%2Fq7GyqlwTGqlpz4rlzfCwBiNfAYjY2NXL%2FES2t8gI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk3OCwibmJmIjoxNzk1Njk3MTc4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JQIE7KB5UA7UCB3srwkxvlAodORjj-44SaeB-P-Bhw8&response-content-disposition=attachment%3B%20filename%3DSubtitleEdit-Windows-x64-Setup.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:22.587Z"
-  },
-  {
-    "id": "TheDocumentFoundation.LibreOffice",
-    "name": "LibreOffice",
-    "manifestOk": true,
-    "version": "26.8.3.1",
-    "homepage": "https://www.documentfoundation.org/",
-    "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://mirror1.cs-georgetown.net/tdf/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi"
-    },
-    "checkedAt": "2026-11-25T23:47:24.253Z"
-  },
-  {
-    "id": "ONLYOFFICE.DesktopEditors",
-    "name": "ONLYOFFICE Desktop Editors",
-    "manifestOk": true,
-    "version": "10.0.0",
-    "homepage": "https://www.onlyoffice.com/desktop.aspx",
-    "installerUrl": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors_x64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/69867298/6f76a93d-bc29-4751-8fc0-e5a4869825ae?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A52Z&rscd=attachment%3B+filename%3DDesktopEditors_x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A55Z&ske=2026-11-26T00%3A37%3A52Z&sks=b&skv=2018-11-09&sig=%2Be%2B3YgSdiHxjRnGSswLmCuIoVHVLTv4V%2FQucTtG%2F4tg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA0MCwibmJmIjoxNzk1NjUwNDQwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EsHxs5pddUzFYURTdAVsjorsoVKHskjQsqV0ayI1uCs&response-content-disposition=attachment%3B%20filename%3DDesktopEditors_x64.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:22.570Z"
+    "checkedAt": "2026-11-26T12:46:20.228Z"
   },
   {
     "id": "Microsoft.Office",
@@ -597,7 +610,35 @@
       "status": 200,
       "finalUrl": "https://officecdn.microsoft.com/pr/wsus/setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:22.108Z"
+    "checkedAt": "2026-11-26T12:46:20.501Z"
+  },
+  {
+    "id": "ONLYOFFICE.DesktopEditors",
+    "name": "ONLYOFFICE Desktop Editors",
+    "manifestOk": true,
+    "version": "10.0.0",
+    "homepage": "https://www.onlyoffice.com/desktop.aspx",
+    "installerUrl": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors_x64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/69867298/6f76a93d-bc29-4751-8fc0-e5a4869825ae?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A31Z&rscd=attachment%3B+filename%3DDesktopEditors_x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A34Z&ske=2026-11-26T13%3A26%3A31Z&sks=b&skv=2018-11-09&sig=e0NwkrGOa0lQBr%2BflnaCOrgr%2F7oS5%2FTeF1Dn6ib8Hfc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc3OSwibmJmIjoxNzk1Njk3MTc5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.TA_4W-EvvSmz3XuaAlLqBIqxyFHHs47_Yo7RkMwFTXc&response-content-disposition=attachment%3B%20filename%3DDesktopEditors_x64.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:20.949Z"
+  },
+  {
+    "id": "TheDocumentFoundation.LibreOffice",
+    "name": "LibreOffice",
+    "manifestOk": true,
+    "version": "26.8.3.1",
+    "homepage": "https://www.documentfoundation.org/",
+    "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mirrors.iu13.net/tdf/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi"
+    },
+    "checkedAt": "2026-11-26T12:46:21.291Z"
   },
   {
     "id": "Adobe.Acrobat.Reader.64-bit",
@@ -610,7 +651,20 @@
       "status": 200,
       "finalUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600322110/AcroRdrDCx642600322110_MUI.exe"
     },
-    "checkedAt": "2026-11-25T23:47:24.567Z"
+    "checkedAt": "2026-11-26T12:46:21.320Z"
+  },
+  {
+    "id": "PDFgear.PDFgear",
+    "name": "PDFgear",
+    "manifestOk": true,
+    "version": "3.0.1",
+    "installerUrl": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v3.0.1.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v3.0.1.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:21.786Z"
   },
   {
     "id": "SumatraPDF.SumatraPDF",
@@ -624,20 +678,7 @@
       "status": 200,
       "finalUrl": "https://files.sumatrapdfreader.org/software/sumatrapdf/rel/3.6.1/SumatraPDF-3.6.1-64-install.exe"
     },
-    "checkedAt": "2026-11-25T23:47:26.320Z"
-  },
-  {
-    "id": "PDFgear.PDFgear",
-    "name": "PDFgear",
-    "manifestOk": true,
-    "version": "3.0.1",
-    "installerUrl": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v3.0.1.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v3.0.1.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:25.052Z"
+    "checkedAt": "2026-11-26T12:46:22.393Z"
   },
   {
     "id": "geeksoftwareGmbH.PDF24Creator",
@@ -651,7 +692,7 @@
       "status": 200,
       "finalUrl": "https://download.pdf24.org/pdf24-creator-11.35.0-x64.msi"
     },
-    "checkedAt": "2026-11-25T23:47:26.879Z"
+    "checkedAt": "2026-11-26T12:46:22.435Z"
   },
   {
     "id": "Notepad++.Notepad++",
@@ -663,37 +704,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/33014811/57f0db65-a376-4464-9a7d-68a370a7516f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A24Z&rscd=attachment%3B+filename%3Dnpp.8.9.9.1.Installer.x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A34Z&ske=2026-11-26T00%3A37%3A24Z&sks=b&skv=2018-11-09&sig=louP6WoZ%2BPIuaH4t%2FRROlwK3fuLoDUAn7QmJUDTH8MA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDc0NSwibmJmIjoxNzk1NjUwNDQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.REvhDLpe_-A8P1A8lY-iEv7TUHA3he4tTeU86Ce0nLk&response-content-disposition=attachment%3B%20filename%3Dnpp.8.9.9.1.Installer.x64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/33014811/57f0db65-a376-4464-9a7d-68a370a7516f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A18Z&rscd=attachment%3B+filename%3Dnpp.8.9.9.1.Installer.x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A26Z&ske=2026-11-26T13%3A26%3A18Z&sks=b&skv=2018-11-09&sig=EJBzqHXrlhtowLz4giPPIj41oL50O7nABku%2FCg1Kd7M%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ4MSwibmJmIjoxNzk1Njk3MTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.AUBsKKDn3paV5X0ndoEpcZZKHhRVwLCshxB7ijiXs3g&response-content-disposition=attachment%3B%20filename%3Dnpp.8.9.9.1.Installer.x64.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:27.557Z"
-  },
-  {
-    "id": "Obsidian.Obsidian",
-    "name": "Obsidian",
-    "manifestOk": true,
-    "version": "1.15.1",
-    "homepage": "https://obsidian.md/",
-    "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/262342594/79da825d-2577-42ac-ad59-9d8e7ea18ecf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A38%3A05Z&rscd=attachment%3B+filename%3DObsidian-1.15.1.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A37Z&ske=2026-11-26T00%3A38%3A05Z&sks=b&skv=2018-11-09&sig=%2BOMY9P5GzYh0i1wMVuYSzQP%2FppEDmY1ak1OF7OTVOA0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA0NiwibmJmIjoxNzk1NjUwNDQ2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jZJW1N_jZstw_oIMl76SzIho7M3mAIx6q7PAwOK-xOs&response-content-disposition=attachment%3B%20filename%3DObsidian-1.15.1.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:28.511Z"
-  },
-  {
-    "id": "Joplin.Joplin",
-    "name": "Joplin",
-    "manifestOk": true,
-    "version": "3.7.24",
-    "homepage": "https://joplinapp.org/",
-    "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-Setup-3.7.24.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/79162682/70a0a2e5-94f9-4fc4-98e5-ec20fa791792?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A25Z&rscd=attachment%3B+filename%3DJoplin-Setup-3.7.24.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A41Z&ske=2026-11-26T00%3A35%3A25Z&sks=b&skv=2018-11-09&sig=npOOW2E6596Qv%2BjaCKDcCSAGC3pHv1rd1J3hbmetjes%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA0NywibmJmIjoxNzk1NjUwNDQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.dbLP2lyFxCXJpBWHTZwrp1wtvwNanPNQQjGs2inKoOY&response-content-disposition=attachment%3B%20filename%3DJoplin-Setup-3.7.24.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:29.666Z"
+    "checkedAt": "2026-11-26T12:46:22.902Z"
   },
   {
     "id": "Notion.Notion",
@@ -707,21 +720,35 @@
       "status": 200,
       "finalUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.44.1.exe"
     },
-    "checkedAt": "2026-11-25T23:47:29.542Z"
+    "checkedAt": "2026-11-26T12:46:23.274Z"
   },
   {
-    "id": "Anki.Anki",
-    "name": "Anki",
+    "id": "Obsidian.Obsidian",
+    "name": "Obsidian",
     "manifestOk": true,
-    "version": "26.09.4",
-    "homepage": "https://github.com/ankitects/anki",
-    "installerUrl": "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
+    "version": "1.15.1",
+    "homepage": "https://obsidian.md/",
+    "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/7270538/f9dc6a7b-a167-4361-a362-245fe0072c92?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A44Z&rscd=attachment%3B+filename%3Danki-26.09.4-win-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A13Z&ske=2026-11-26T00%3A37%3A44Z&sks=b&skv=2018-11-09&sig=Ba2H5RuP37gDmK2xv68UBhnzgjwvm9WKkKCoj1LON0U%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA0OCwibmJmIjoxNzk1NjUwNDQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.QebLNpk-5QrS64HX4s0kHhDymFCu1kfL_j9QoJgu_NM&response-content-disposition=attachment%3B%20filename%3Danki-26.09.4-win-x64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/262342594/79da825d-2577-42ac-ad59-9d8e7ea18ecf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A48Z&rscd=attachment%3B+filename%3DObsidian-1.15.1.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A25Z&ske=2026-11-26T13%3A25%3A48Z&sks=b&skv=2018-11-09&sig=2%2FgEizGB1ub6H8%2FJ7iy%2FXKWUgMuzLixLYspFLIgZL6c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4MSwibmJmIjoxNzk1Njk3MTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jd_kNhO59ojE8Jou2ia2XkxvgfhzE7PKtu1vFJ0OcH8&response-content-disposition=attachment%3B%20filename%3DObsidian-1.15.1.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:30.716Z"
+    "checkedAt": "2026-11-26T12:46:23.388Z"
+  },
+  {
+    "id": "Joplin.Joplin",
+    "name": "Joplin",
+    "manifestOk": true,
+    "version": "3.7.24",
+    "homepage": "https://joplinapp.org/",
+    "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-Setup-3.7.24.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/79162682/70a0a2e5-94f9-4fc4-98e5-ec20fa791792?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A18Z&rscd=attachment%3B+filename%3DJoplin-Setup-3.7.24.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A21Z&ske=2026-11-26T13%3A30%3A18Z&sks=b&skv=2018-11-09&sig=%2BKFslLJ1Jmwx79ZxXvzsvGlvnZT3xICyhM6phy9OILs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4MiwibmJmIjoxNzk1Njk3MTgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.0AS9ozY1SqAIM_8Ls724_9sPNinV-PumrYCYIaKBtHU&response-content-disposition=attachment%3B%20filename%3DJoplin-Setup-3.7.24.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:23.988Z"
   },
   {
     "id": "calibre.calibre",
@@ -735,7 +762,21 @@
       "status": 200,
       "finalUrl": "https://download.calibre-ebook.com/9.19.0/calibre-64bit-9.19.0.msi"
     },
-    "checkedAt": "2026-11-25T23:47:31.020Z"
+    "checkedAt": "2026-11-26T12:46:24.367Z"
+  },
+  {
+    "id": "Anki.Anki",
+    "name": "Anki",
+    "manifestOk": true,
+    "version": "26.09.4",
+    "homepage": "https://github.com/ankitects/anki",
+    "installerUrl": "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/7270538/f9dc6a7b-a167-4361-a362-245fe0072c92?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A17Z&rscd=attachment%3B+filename%3Danki-26.09.4-win-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A55Z&ske=2026-11-26T13%3A27%3A17Z&sks=b&skv=2018-11-09&sig=ZFvcdH%2FPyxCxpDtMj55tny5c67mq15JZqtk%2BHaT5Lp8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4MiwibmJmIjoxNzk1Njk3MTgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.0AS9ozY1SqAIM_8Ls724_9sPNinV-PumrYCYIaKBtHU&response-content-disposition=attachment%3B%20filename%3Danki-26.09.4-win-x64.msi&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:24.533Z"
   },
   {
     "id": "JGraph.Draw",
@@ -747,9 +788,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/92443980/764883fe-a5da-47c9-9eec-78f248578869?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A10Z&rscd=attachment%3B+filename%3Ddraw.io-32.7.4.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A55Z&ske=2026-11-26T00%3A35%3A10Z&sks=b&skv=2018-11-09&sig=yVPotQ4s8L5ubuSGFIXEHlaTeCjWaXHYuIl6XzaWUFQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA1MCwibmJmIjoxNzk1NjUwNDUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.KVg2KLZ12_evIgJcukNqY-gCvedJbOgWmRZJTSH-Pjs&response-content-disposition=attachment%3B%20filename%3Ddraw.io-32.7.4.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/92443980/764883fe-a5da-47c9-9eec-78f248578869?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A57Z&rscd=attachment%3B+filename%3Ddraw.io-32.7.4.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A42Z&ske=2026-11-26T13%3A26%3A57Z&sks=b&skv=2018-11-09&sig=MeX2ElcCGRUYO2C4F8v%2FH4Dq7qRhiMY2rAhbMHHw2bY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4MywibmJmIjoxNzk1Njk3MTgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.z6rNJseQApItGNs_1vQe6hqYvbTHkpkrcsum_a1GyNg&response-content-disposition=attachment%3B%20filename%3Ddraw.io-32.7.4.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:32.684Z"
+    "checkedAt": "2026-11-26T12:46:25.008Z"
   },
   {
     "id": "Ditto.Ditto",
@@ -761,9 +802,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/312430210/4cc65b52-881a-4849-a6cb-c5c13a72d22a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A44Z&rscd=attachment%3B+filename%3DDittoSetup_3_25_113_0.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A36Z&ske=2026-11-26T00%3A37%3A44Z&sks=b&skv=2018-11-09&sig=bZi4%2FHVpETpnMrHI2FGE37eFmE5lFMPDBbPBzSYLH9Y%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDc1MSwibmJmIjoxNzk1NjUwNDUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Do0JQdoGXXdNU3pIVN3NKTk-74adT0mC2JeDWdyU_kU&response-content-disposition=attachment%3B%20filename%3DDittoSetup_3_25_113_0.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/312430210/4cc65b52-881a-4849-a6cb-c5c13a72d22a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A21Z&rscd=attachment%3B+filename%3DDittoSetup_3_25_113_0.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A19Z&ske=2026-11-26T13%3A29%3A21Z&sks=b&skv=2018-11-09&sig=RhI494cQzlnDzmI6LQw67ow%2Fs6grfdyt4J3rJ0l8DSY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ4MywibmJmIjoxNzk1Njk3MTgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.IWXiggVy9ttdpyGDTrQjEHrr2MAQM5ADEL7tEfv834o&response-content-disposition=attachment%3B%20filename%3DDittoSetup_3_25_113_0.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:33.138Z"
+    "checkedAt": "2026-11-26T12:46:25.632Z"
   },
   {
     "id": "Flow-Launcher.Flow-Launcher",
@@ -775,9 +816,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/257526212/6456dac9-6cc5-4247-a05e-e4b9d1fa857b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A33Z&rscd=attachment%3B+filename%3DFlow-Launcher-Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A06Z&ske=2026-11-26T00%3A37%3A33Z&sks=b&skv=2018-11-09&sig=ijwEjRPh89pj5Qo6cyHSystwkxiwoSsbUMvC%2FCttojk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI1MSwibmJmIjoxNzk1NjUwNDUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.eQV2W6jwOZn_BrDdcGPaPG34VOBbYC1WZDCKaEz8mek&response-content-disposition=attachment%3B%20filename%3DFlow-Launcher-Setup.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/257526212/6456dac9-6cc5-4247-a05e-e4b9d1fa857b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A42Z&rscd=attachment%3B+filename%3DFlow-Launcher-Setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A37Z&ske=2026-11-26T13%3A29%3A42Z&sks=b&skv=2018-11-09&sig=4RZ4pRHalrgKcDQekX10nrbRmVbn1RDfIpojyX46AP4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk4NCwibmJmIjoxNzk1Njk3MTg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.KPk2eGk7X3LN-UHWJNIf-G9kcv-5tiLwTbcJNLysvHM&response-content-disposition=attachment%3B%20filename%3DFlow-Launcher-Setup.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:33.783Z"
+    "checkedAt": "2026-11-26T12:46:26.009Z"
   },
   {
     "id": "ShareX.ShareX",
@@ -789,9 +830,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/13428264/a81ff83d-f454-4b3f-9d73-9b2100545a49?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A23%3A38Z&rscd=attachment%3B+filename%3DShareX-22.4.0-setup-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A22%3A58Z&ske=2026-11-26T00%3A23%3A38Z&sks=b&skv=2018-11-09&sig=5jy96TvdeD5JjclComBIU1ngxcPK4qh3Asmv%2FUwd%2B9Y%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA1MiwibmJmIjoxNzk1NjUwNDUyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.s-Q7fuXvlSDZ9IUDIj91gf885sklk0Umzi8CG1kFNTA&response-content-disposition=attachment%3B%20filename%3DShareX-22.4.0-setup-x64.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/13428264/a81ff83d-f454-4b3f-9d73-9b2100545a49?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A10Z&rscd=attachment%3B+filename%3DShareX-22.4.0-setup-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A26Z&ske=2026-11-26T13%3A26%3A10Z&sks=b&skv=2018-11-09&sig=6yf4tURvN2R5SA1A4BgdJuaxPlG5GBcW%2BF6Xp6URptU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4NCwibmJmIjoxNzk1Njk3MTg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.G88-VJl-Z1lkn9bONHCFTAeW44uSwNc94wmCDBw0anM&response-content-disposition=attachment%3B%20filename%3DShareX-22.4.0-setup-x64.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:34.371Z"
+    "checkedAt": "2026-11-26T12:46:26.160Z"
   },
   {
     "id": "OBSProject.OBSStudio",
@@ -803,9 +844,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/13233158/2c90cbe3-bd3d-4cb8-8e5c-f4c070f8e2e0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A21Z&rscd=attachment%3B+filename%3DOBS-Studio-33.0.3-Windows-x64-Installer.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A03Z&ske=2026-11-26T00%3A35%3A21Z&sks=b&skv=2018-11-09&sig=ESUu1laAy3ITTk8vJ6c2CCeAQ6Ylu8wH2ca1IX%2B4lX4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA1MywibmJmIjoxNzk1NjUwNDUzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.pWaiWW5v372CBlRjgD2QUF9Mbk8-ghscCX-Y1p46CoY&response-content-disposition=attachment%3B%20filename%3DOBS-Studio-33.0.3-Windows-x64-Installer.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/13233158/2c90cbe3-bd3d-4cb8-8e5c-f4c070f8e2e0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A40Z&rscd=attachment%3B+filename%3DOBS-Studio-33.0.3-Windows-x64-Installer.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A27Z&ske=2026-11-26T13%3A29%3A40Z&sks=b&skv=2018-11-09&sig=xkTYklmwwr7xbDEYqXjbu88POog%2BmHTEHQFDi6pswPg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4NCwibmJmIjoxNzk1Njk3MTg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.G88-VJl-Z1lkn9bONHCFTAeW44uSwNc94wmCDBw0anM&response-content-disposition=attachment%3B%20filename%3DOBS-Studio-33.0.3-Windows-x64-Installer.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:35.688Z"
+    "checkedAt": "2026-11-26T12:46:26.671Z"
   },
   {
     "id": "GIMP.GIMP.3",
@@ -819,21 +860,7 @@
       "status": 200,
       "finalUrl": "https://paducahix.mm.fcix.net/gimp/gimp/v3.2/windows/gimp-3.2.8-setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:36.782Z"
-  },
-  {
-    "id": "KDE.Krita",
-    "name": "Krita",
-    "manifestOk": true,
-    "version": "5.3.5.0",
-    "homepage": "https://kde.org/",
-    "installerUrl": "https://download.kde.org/stable/krita/5.3.5/krita-x64-5.3.5-setup.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://mirror.csclub.uwaterloo.ca/kde/stable/krita/5.3.5/krita-x64-5.3.5-setup.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:37.632Z"
+    "checkedAt": "2026-11-26T12:46:27.303Z"
   },
   {
     "id": "Inkscape.Inkscape",
@@ -847,7 +874,7 @@
       "status": 200,
       "finalUrl": "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4_2026-05-05_dcaf3e7-x64.signed_xMx7DJV.msi"
     },
-    "checkedAt": "2026-11-25T23:47:37.252Z"
+    "checkedAt": "2026-11-26T12:46:27.510Z"
   },
   {
     "id": "BlenderFoundation.Blender",
@@ -860,21 +887,21 @@
       "status": 200,
       "finalUrl": "https://download.blender.org/release/Blender5.3/blender-5.3.0-windows-x64.msi"
     },
-    "checkedAt": "2026-11-25T23:47:38.390Z"
+    "checkedAt": "2026-11-26T12:46:27.542Z"
   },
   {
-    "id": "dotPDN.PaintDotNet",
-    "name": "Paint.NET",
+    "id": "KDE.Krita",
+    "name": "Krita",
     "manifestOk": true,
-    "version": "5.2",
-    "homepage": "https://dotpdn.com/",
-    "installerUrl": "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.winmsi.x64.zip",
+    "version": "5.3.5.0",
+    "homepage": "https://kde.org/",
+    "installerUrl": "https://download.kde.org/stable/krita/5.3.5/krita-x64-5.3.5-setup.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/407688509/b11f2076-ad85-4bba-a91b-3948ae36ef00?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A16Z&rscd=attachment%3B+filename%3Dpaint.net.5.2.winmsi.x64.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A27Z&ske=2026-11-26T00%3A36%3A16Z&sks=b&skv=2018-11-09&sig=F9sgdPelULgUwR9iDk9yDRmenUsz3UkcYwmM6ZVxhqA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA1NywibmJmIjoxNzk1NjUwNDU3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.bRfSTTpybtPhn1lCuzv4kTxcoI1Y99NiWFumQDj1iTg&response-content-disposition=attachment%3B%20filename%3Dpaint.net.5.2.winmsi.x64.zip&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://mirror.csclub.uwaterloo.ca/kde/stable/krita/5.3.5/krita-x64-5.3.5-setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:39.748Z"
+    "checkedAt": "2026-11-26T12:46:28.132Z"
   },
   {
     "id": "IrfanSkiljan.IrfanView",
@@ -888,7 +915,7 @@
       "status": 200,
       "finalUrl": "https://download.fileforum.com/download/967963863-1/iview476_x64_setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:39.699Z"
+    "checkedAt": "2026-11-26T12:46:28.410Z"
   },
   {
     "id": "XnSoft.XnViewMP",
@@ -902,7 +929,21 @@
       "status": 200,
       "finalUrl": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.12.3-win-x64.exe"
     },
-    "checkedAt": "2026-11-25T23:47:41.462Z"
+    "checkedAt": "2026-11-26T12:46:28.623Z"
+  },
+  {
+    "id": "dotPDN.PaintDotNet",
+    "name": "Paint.NET",
+    "manifestOk": true,
+    "version": "5.2",
+    "homepage": "https://dotpdn.com/",
+    "installerUrl": "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.winmsi.x64.zip",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/407688509/b11f2076-ad85-4bba-a91b-3948ae36ef00?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A55Z&rscd=attachment%3B+filename%3Dpaint.net.5.2.winmsi.x64.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A41Z&ske=2026-11-26T13%3A29%3A55Z&sks=b&skv=2018-11-09&sig=sAe4L9cv0%2BVqOgioCVO1FjKMOCgPxwmBQhituVlG76s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4NywibmJmIjoxNzk1Njk3MTg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DQAt1vN9993LLalNhvwGBqd5PkoTTpxkrRC3s7dEGTg&response-content-disposition=attachment%3B%20filename%3Dpaint.net.5.2.winmsi.x64.zip&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:28.968Z"
   },
   {
     "id": "DuongDieuPhap.ImageGlass",
@@ -914,9 +955,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/7377936/ebdff2a8-4056-4df4-b432-1e4d6cfa0a36?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A12Z&rscd=attachment%3B+filename%3DImageGlass_10.0.6.906_win-x64.msix&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A51Z&ske=2026-11-26T00%3A36%3A12Z&sks=b&skv=2018-11-09&sig=Y0K4V5Q561xY38pj5eVhyGf2s4Xlk1ywpU7fWs%2Fu758%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI1OSwibmJmIjoxNzk1NjUwNDU5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.k2x6AIboTvnbzD97JeJJFW4SPW73yDwXM3zWrPsiIfs&response-content-disposition=attachment%3B%20filename%3DImageGlass_10.0.6.906_win-x64.msix&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/7377936/ebdff2a8-4056-4df4-b432-1e4d6cfa0a36?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A28%3A40Z&rscd=attachment%3B+filename%3DImageGlass_10.0.6.906_win-x64.msix&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A11Z&ske=2026-11-26T13%3A28%3A40Z&sks=b&skv=2018-11-09&sig=s4HCgS%2BH4vklNb7M8J2YgOcMxNisEyMPl34fFvyuzVI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk4OCwibmJmIjoxNzk1Njk3MTg4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rW1s7zRUyOCq5a50ZEzg1KJBrxAWWV-QEm81DrvyRCc&response-content-disposition=attachment%3B%20filename%3DImageGlass_10.0.6.906_win-x64.msix&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:41.574Z"
+    "checkedAt": "2026-11-26T12:46:29.699Z"
   },
   {
     "id": "Meltytech.Shotcut",
@@ -928,23 +969,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/4118776/e9bb9f20-fe6c-480f-8893-d4422346afd1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A12Z&rscd=attachment%3B+filename%3Dshotcut-win64-26.11.15.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A52Z&ske=2026-11-26T00%3A35%3A12Z&sks=b&skv=2018-11-09&sig=pbrSI4kZFYvATT8rJZVOk0wScb9GhXVow1B40uvoB3M%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA2MSwibmJmIjoxNzk1NjUwNDYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WjiOr3KJ0F9HzTecS5olCHv_dvuFQy90SsbKkSti3rY&response-content-disposition=attachment%3B%20filename%3Dshotcut-win64-26.11.15.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/4118776/e9bb9f20-fe6c-480f-8893-d4422346afd1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A34%3A46Z&rscd=attachment%3B+filename%3Dshotcut-win64-26.11.15.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A33%3A55Z&ske=2026-11-26T13%3A34%3A46Z&sks=b&skv=2018-11-09&sig=IgHAzqnleeahzucvygRYUTO6aYASJoqabvxXvHYBIcc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4OCwibmJmIjoxNzk1Njk3MTg4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.k9P9oV0hLk3IIioh1mN6pfRVmOlyNU0D01OzXeGZBDU&response-content-disposition=attachment%3B%20filename%3Dshotcut-win64-26.11.15.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:43.327Z"
-  },
-  {
-    "id": "KDE.Kdenlive",
-    "name": "Kdenlive",
-    "manifestOk": true,
-    "version": "26.08.3",
-    "homepage": "https://kde.org/",
-    "installerUrl": "https://download.kde.org/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://paducahix.mm.fcix.net/kdeftp/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:43.207Z"
+    "checkedAt": "2026-11-26T12:46:30.042Z"
   },
   {
     "id": "ByteDance.CapCut",
@@ -958,7 +985,21 @@
       "status": 200,
       "finalUrl": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/packages/CapCut_9_9_0_4252_capcutpc_0_creatortool.exe"
     },
-    "checkedAt": "2026-11-25T23:47:44.069Z"
+    "checkedAt": "2026-11-26T12:46:30.171Z"
+  },
+  {
+    "id": "KDE.Kdenlive",
+    "name": "Kdenlive",
+    "manifestOk": true,
+    "version": "26.08.3",
+    "homepage": "https://kde.org/",
+    "installerUrl": "https://download.kde.org/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mirrors.mit.edu/kde/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:30.782Z"
   },
   {
     "id": "Microsoft.PowerToys",
@@ -970,37 +1011,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/184456251/2cb4276b-dedb-4526-9b5d-0d58c5895ba3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A20Z&rscd=attachment%3B+filename%3DPowerToysUserSetup-0.102.3101.0-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A05Z&ske=2026-11-26T00%3A37%3A20Z&sks=b&skv=2018-11-09&sig=ky3bjxo%2FHxn7ClrKVTIHd5t5g%2FgErlmJgqBDUlHi3hk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA2MiwibmJmIjoxNzk1NjUwNDYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.LDG8pymxmke3t1PiEitdeTRVoQ20v6ShLXOyFAQrEBE&response-content-disposition=attachment%3B%20filename%3DPowerToysUserSetup-0.102.3101.0-x64.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/184456251/2cb4276b-dedb-4526-9b5d-0d58c5895ba3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A00Z&rscd=attachment%3B+filename%3DPowerToysUserSetup-0.102.3101.0-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A03Z&ske=2026-11-26T13%3A27%3A00Z&sks=b&skv=2018-11-09&sig=HhiHc5LCKLIa3bAnqn1rwSE37UGozqFTk%2FGXJhPee0I%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc4OSwibmJmIjoxNzk1Njk3MTg5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.yQLqi3RHLf9Jc4sEQVFiU8YRPm701Kn19j--ibAqGh0&response-content-disposition=attachment%3B%20filename%3DPowerToysUserSetup-0.102.3101.0-x64.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:44.513Z"
-  },
-  {
-    "id": "CrystalDewWorld.CrystalDiskInfo",
-    "name": "CrystalDiskInfo",
-    "manifestOk": true,
-    "version": "9.9.5",
-    "homepage": "https://crystalmark.info/en/",
-    "installerUrl": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5.exe/download",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://psychz.dl.sourceforge.net/project/crystaldiskinfo/9.9.5/CrystalDiskInfo9_9_5.exe?viasf=1&fid=2e01bb87d5918216&e=1795736865&st=dNn1UoE3HxkWDIqWUiWDiA"
-    },
-    "checkedAt": "2026-11-25T23:47:47.249Z"
-  },
-  {
-    "id": "CrystalDewWorld.CrystalDiskMark",
-    "name": "CrystalDiskMark",
-    "manifestOk": true,
-    "version": "9.0.3",
-    "homepage": "https://crystalmark.info/",
-    "installerUrl": "https://sourceforge.net/projects/crystaldiskmark/files/9.0.3/CrystalDiskMark9_0_3.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://netactuate.dl.sourceforge.net/project/crystaldiskmark/9.0.3/CrystalDiskMark9_0_3.exe?viasf=1&fid=3146e97b3c195781&e=1795736867&st=h-5rc02Ax_nHNjpsS3XVvg"
-    },
-    "checkedAt": "2026-11-25T23:47:49.560Z"
+    "checkedAt": "2026-11-26T12:46:31.555Z"
   },
   {
     "id": "REALiX.HWiNFO",
@@ -1014,7 +1027,7 @@
       "status": 200,
       "finalUrl": "https://www.sac.sk/download/utildiag/hwi_860x.exe"
     },
-    "checkedAt": "2026-11-25T23:47:47.229Z"
+    "checkedAt": "2026-11-26T12:46:31.946Z"
   },
   {
     "id": "CPUID.CPU-Z",
@@ -1028,7 +1041,21 @@
       "status": 200,
       "finalUrl": "https://download.cpuid.com/cpu-z/cpu-z_3.02-en.exe"
     },
-    "checkedAt": "2026-11-25T23:47:47.303Z"
+    "checkedAt": "2026-11-26T12:46:32.638Z"
+  },
+  {
+    "id": "CrystalDewWorld.CrystalDiskInfo",
+    "name": "CrystalDiskInfo",
+    "manifestOk": true,
+    "version": "9.9.5",
+    "homepage": "https://crystalmark.info/en/",
+    "installerUrl": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5.exe/download",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://pilotfiber.dl.sourceforge.net/project/crystaldiskinfo/9.9.5/CrystalDiskInfo9_9_5.exe?viasf=1&fid=2e01bb87d5918216&e=1795783590&st=8-tVefa4Nx13b3FnafVJkg"
+    },
+    "checkedAt": "2026-11-26T12:46:32.692Z"
   },
   {
     "id": "CPUID.HWMonitor",
@@ -1042,7 +1069,34 @@
       "status": 200,
       "finalUrl": "https://download.cpuid.com/hwmonitor/hwmonitor_1.68.exe"
     },
-    "checkedAt": "2026-11-25T23:47:49.995Z"
+    "checkedAt": "2026-11-26T12:46:33.027Z"
+  },
+  {
+    "id": "UderzoSoftware.SpaceSniffer",
+    "name": "SpaceSniffer",
+    "manifestOk": true,
+    "version": "2.2.0.27",
+    "installerUrl": "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip"
+    },
+    "checkedAt": "2026-11-26T12:46:34.094Z"
+  },
+  {
+    "id": "CrystalDewWorld.CrystalDiskMark",
+    "name": "CrystalDiskMark",
+    "manifestOk": true,
+    "version": "9.0.3",
+    "homepage": "https://crystalmark.info/",
+    "installerUrl": "https://sourceforge.net/projects/crystaldiskmark/files/9.0.3/CrystalDiskMark9_0_3.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://phoenixnap.dl.sourceforge.net/project/crystaldiskmark/9.0.3/CrystalDiskMark9_0_3.exe?viasf=1&fid=3146e97b3c195781&e=1795783592&st=uzeDCwNEP037ead9rcvZuw"
+    },
+    "checkedAt": "2026-11-26T12:46:34.111Z"
   },
   {
     "id": "Guru3D.Afterburner",
@@ -1055,21 +1109,7 @@
       "status": 200,
       "finalUrl": "https://ftp.nluug.nl/pub/games/PC/guru3d/afterburner/[Guru3D]-MSIAfterburnerSetup466Build16757.zip"
     },
-    "checkedAt": "2026-11-25T23:47:50.423Z"
-  },
-  {
-    "id": "AntibodySoftware.WizTree",
-    "name": "WizTree",
-    "manifestOk": true,
-    "version": "4.34",
-    "homepage": "https://antibody-software.com/",
-    "installerUrl": "https://diskanalyzer.com/files/wiztree_4_34_setup.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://antibodysoftware-17031.kxcdn.com/files/wiztree_4_34_setup.exe"
-    },
-    "checkedAt": "2026-11-25T23:47:53.298Z"
+    "checkedAt": "2026-11-26T12:46:34.263Z"
   },
   {
     "id": "WinDirStat.WinDirStat",
@@ -1081,23 +1121,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/55435293/2d402f04-8427-4062-a22f-84a2f1321de7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A39Z&rscd=attachment%3B+filename%3DWinDirStat-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A17Z&ske=2026-11-26T00%3A36%3A39Z&sks=b&skv=2018-11-09&sig=6l2UFKX7Qfm2CakwRogEuwz%2FwnaZIjT0ko8whrejTbM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDc0NSwibmJmIjoxNzk1NjUwNDQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.REvhDLpe_-A8P1A8lY-iEv7TUHA3he4tTeU86Ce0nLk&response-content-disposition=attachment%3B%20filename%3DWinDirStat-x64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/55435293/2d402f04-8427-4062-a22f-84a2f1321de7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A08Z&rscd=attachment%3B+filename%3DWinDirStat-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A29Z&ske=2026-11-26T13%3A26%3A08Z&sks=b&skv=2018-11-09&sig=mra%2Bmrx9NLL%2BRDYJX6GY7sJv5bv6DuOnengR5w06yCY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ5MiwibmJmIjoxNzk1Njk3MTkyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cphR1xaOyUGuMo4c5cAsfSsaX6a7VXcgB2CjrxiCxzg&response-content-disposition=attachment%3B%20filename%3DWinDirStat-x64.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:52.554Z"
-  },
-  {
-    "id": "Klocman.BulkCrapUninstaller",
-    "name": "Bulk Crap Uninstaller",
-    "manifestOk": true,
-    "version": "6.3.0.0",
-    "homepage": "https://www.bcuninstaller.com/",
-    "installerUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_setup.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/64677873/e67b97c5-fcac-42fc-815c-f48c3e069bf9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A46Z&rscd=attachment%3B+filename%3DBCUninstaller_6.3.0_setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A29Z&ske=2026-11-26T00%3A37%3A46Z&sks=b&skv=2018-11-09&sig=bqb2OzODWrQCeRud%2BCJAE0YH%2FqGz2r9NVDhfCNG1zU4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDc3MSwibmJmIjoxNzk1NjUwNDcxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6r7X96ptQO8Hoya2KHQj0wM-rO5WP28XpHSeXD3O2aE&response-content-disposition=attachment%3B%20filename%3DBCUninstaller_6.3.0_setup.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:47:53.109Z"
+    "checkedAt": "2026-11-26T12:46:34.635Z"
   },
   {
     "id": "RevoUninstaller.RevoUninstaller",
@@ -1111,7 +1137,7 @@
       "status": 200,
       "finalUrl": "https://revouninstaller.b-cdn.net/ruf272/revosetup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:52.804Z"
+    "checkedAt": "2026-11-26T12:46:35.215Z"
   },
   {
     "id": "Microsoft.Sysinternals.ProcessExplorer",
@@ -1125,7 +1151,7 @@
       "status": 200,
       "finalUrl": "https://download.sysinternals.com/files/ProcessExplorer.zip"
     },
-    "checkedAt": "2026-11-25T23:47:54.979Z"
+    "checkedAt": "2026-11-26T12:46:35.400Z"
   },
   {
     "id": "Microsoft.Sysinternals.Autoruns",
@@ -1139,7 +1165,21 @@
       "status": 200,
       "finalUrl": "https://download.sysinternals.com/files/Autoruns.zip"
     },
-    "checkedAt": "2026-11-25T23:47:55.081Z"
+    "checkedAt": "2026-11-26T12:46:35.527Z"
+  },
+  {
+    "id": "Klocman.BulkCrapUninstaller",
+    "name": "Bulk Crap Uninstaller",
+    "manifestOk": true,
+    "version": "6.3.0.0",
+    "homepage": "https://www.bcuninstaller.com/",
+    "installerUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_setup.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/64677873/e67b97c5-fcac-42fc-815c-f48c3e069bf9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A53Z&rscd=attachment%3B+filename%3DBCUninstaller_6.3.0_setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A39Z&ske=2026-11-26T13%3A29%3A53Z&sks=b&skv=2018-11-09&sig=ko5EUQbF6tAxK%2FRJyQoBOGE0I8n7OBsQO%2B%2FeXer99Ks%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQ5NCwibmJmIjoxNzk1Njk3MTk0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.u8WHGbLNGomMTXfIgixdINHkWep98JDldmOKr5NClgw&response-content-disposition=attachment%3B%20filename%3DBCUninstaller_6.3.0_setup.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:35.749Z"
   },
   {
     "id": "Valve.Steam",
@@ -1153,7 +1193,7 @@
       "status": 200,
       "finalUrl": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:55.527Z"
+    "checkedAt": "2026-11-26T12:46:36.459Z"
   },
   {
     "id": "EpicGames.EpicGamesLauncher",
@@ -1167,7 +1207,7 @@
       "status": 200,
       "finalUrl": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-20.3.3.msi?launcherfilename=EpicInstaller-20.3.3.msi"
     },
-    "checkedAt": "2026-11-25T23:47:55.617Z"
+    "checkedAt": "2026-11-26T12:46:36.620Z"
   },
   {
     "id": "ElectronicArts.EADesktop",
@@ -1181,7 +1221,7 @@
       "status": 200,
       "finalUrl": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.836.0.6349-16817646.exe"
     },
-    "checkedAt": "2026-11-25T23:47:57.409Z"
+    "checkedAt": "2026-11-26T12:46:36.753Z"
   },
   {
     "id": "Ubisoft.Connect",
@@ -1195,21 +1235,35 @@
       "status": 200,
       "finalUrl": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe"
     },
-    "checkedAt": "2026-11-25T23:47:57.654Z"
+    "checkedAt": "2026-11-26T12:46:37.020Z"
   },
   {
-    "id": "GOG.Galaxy",
-    "name": "GOG Galaxy",
+    "id": "Playnite.Playnite",
+    "name": "Playnite",
     "manifestOk": true,
-    "version": "2.1.10.56",
-    "homepage": "https://www.gog.com/",
-    "installerUrl": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.10.56.exe",
+    "version": "10.65",
+    "homepage": "https://playnite.link/",
+    "installerUrl": "https://github.com/JosefNemec/Playnite/releases/download/10.65/Playnite1065.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://gog-cdn-fastly.gog.com/open/galaxy/client/setup_galaxy_2.1.10.56.exe"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/86182490/97969576-2d8f-4cd7-a387-eb3e9b490b33?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A52Z&rscd=attachment%3B+filename%3DPlaynite1065.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A12Z&ske=2026-11-26T13%3A29%3A52Z&sks=b&skv=2018-11-09&sig=3ma%2BM%2B6FSU4B1dchWvnOplqgAPZrLwHG%2FB6sMPwC4aQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc5NiwibmJmIjoxNzk1Njk3MTk2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OirXz97aODD4bnn-HzJ9hLgamKWAxmS4LHTEqjuUBS8&response-content-disposition=attachment%3B%20filename%3DPlaynite1065.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:47:59.227Z"
+    "checkedAt": "2026-11-26T12:46:38.408Z"
+  },
+  {
+    "id": "HeroicGamesLauncher.HeroicGamesLauncher",
+    "name": "Heroic Games Launcher",
+    "manifestOk": true,
+    "version": "2.22.4",
+    "homepage": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+    "installerUrl": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.4/Heroic-2.22.4-Setup-x64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/325550081/743b86e9-7281-4dd9-a5eb-cf1051c9998e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A51Z&rscd=attachment%3B+filename%3DHeroic-2.22.4-Setup-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A30%3A00Z&ske=2026-11-26T13%3A30%3A51Z&sks=b&skv=2018-11-09&sig=bjadwCFSkAxZkuUOxXR%2BkhR%2FjeQyLncQLebL2uHF%2FlE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDc5NiwibmJmIjoxNzk1Njk3MTk2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OirXz97aODD4bnn-HzJ9hLgamKWAxmS4LHTEqjuUBS8&response-content-disposition=attachment%3B%20filename%3DHeroic-2.22.4-Setup-x64.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:38.637Z"
   },
   {
     "id": "Blizzard.BattleNet",
@@ -1223,35 +1277,21 @@
       "status": 200,
       "finalUrl": "https://downloader.battle.net/download/installer/win/1.0.69/Battle.net-Setup.exe"
     },
-    "checkedAt": "2026-11-25T23:47:59.178Z"
+    "checkedAt": "2026-11-26T12:46:38.950Z"
   },
   {
-    "id": "Playnite.Playnite",
-    "name": "Playnite",
+    "id": "GOG.Galaxy",
+    "name": "GOG Galaxy",
     "manifestOk": true,
-    "version": "10.65",
-    "homepage": "https://playnite.link/",
-    "installerUrl": "https://github.com/JosefNemec/Playnite/releases/download/10.65/Playnite1065.exe",
+    "version": "2.1.10.56",
+    "homepage": "https://www.gog.com/",
+    "installerUrl": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.10.56.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/86182490/97969576-2d8f-4cd7-a387-eb3e9b490b33?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A33Z&rscd=attachment%3B+filename%3DPlaynite1065.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A02Z&ske=2026-11-26T00%3A35%3A33Z&sks=b&skv=2018-11-09&sig=lndplQ32l2u9s3gctBJDPirJFNvRHutjPFEKim6zS%2FE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA3OSwibmJmIjoxNzk1NjUwNDc5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.3clu5-dL8-3SBijhQ-YlPvQ2Vpdf7Bdb0lg5H3O_LtY&response-content-disposition=attachment%3B%20filename%3DPlaynite1065.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://gog-cdn-fastly.gog.com/open/galaxy/client/setup_galaxy_2.1.10.56.exe"
     },
-    "checkedAt": "2026-11-25T23:48:00.934Z"
-  },
-  {
-    "id": "HeroicGamesLauncher.HeroicGamesLauncher",
-    "name": "Heroic Games Launcher",
-    "manifestOk": true,
-    "version": "2.22.4",
-    "homepage": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
-    "installerUrl": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.4/Heroic-2.22.4-Setup-x64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/325550081/743b86e9-7281-4dd9-a5eb-cf1051c9998e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A43Z&rscd=attachment%3B+filename%3DHeroic-2.22.4-Setup-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A30Z&ske=2026-11-26T00%3A36%3A43Z&sks=b&skv=2018-11-09&sig=T3TAz9DJPdS9x0lSGMxRl7RQ5GdzI%2BD9MaH%2FMZDCdsU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA3OCwibmJmIjoxNzk1NjUwNDc4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.gSQ9Kp7Mm_1HBjjA4LaRhJ6SNpPDT1RMGvA5O9TiQ9Q&response-content-disposition=attachment%3B%20filename%3DHeroic-2.22.4-Setup-x64.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:00.568Z"
+    "checkedAt": "2026-11-26T12:46:39.262Z"
   },
   {
     "id": "Microsoft.VCRedist.2015+.x64",
@@ -1265,7 +1305,7 @@
       "status": 200,
       "finalUrl": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/9C02C9ED120F671B900E6B9471D890E3B2414117A7E53F4AE2E855466FA2B7C9/VC_redist.x64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:01.723Z"
+    "checkedAt": "2026-11-26T12:46:39.627Z"
   },
   {
     "id": "Microsoft.VCRedist.2015+.x86",
@@ -1279,7 +1319,7 @@
       "status": 200,
       "finalUrl": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/7B0117E6E20E9E349029C000A8A2715A52CF37C15B6BB697B2908E8BC7066CDF/VC_redist.x86.exe"
     },
-    "checkedAt": "2026-11-25T23:48:01.753Z"
+    "checkedAt": "2026-11-26T12:46:39.645Z"
   },
   {
     "id": "Microsoft.DotNet.DesktopRuntime.8",
@@ -1292,7 +1332,7 @@
       "status": 200,
       "finalUrl": "https://download.microsoft.com/download/f5126c7f-c450-4883-a6ac-db5a8625bd16/3a6bc153-80ae-4859-80d1-3f251d2485e0/windowsdesktop-runtime-8.0.34-win-x64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:03.263Z"
+    "checkedAt": "2026-11-26T12:46:40.438Z"
   },
   {
     "id": "Microsoft.DotNet.DesktopRuntime.10",
@@ -1305,7 +1345,7 @@
       "status": 200,
       "finalUrl": "https://download.microsoft.com/download/b477fae7-19d5-41a2-ba11-105d9bab54f8/276d0de6-d558-4859-a3fe-65103e17a1ec/windowsdesktop-runtime-10.0.15-win-x64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:03.369Z"
+    "checkedAt": "2026-11-26T12:46:40.537Z"
   },
   {
     "id": "Microsoft.EdgeWebView2Runtime",
@@ -1319,7 +1359,7 @@
       "status": 200,
       "finalUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/63f7af19-5d22-43ab-af18-239a7b23b84c/MicrosoftEdgeWebView2RuntimeInstallerX64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:04.551Z"
+    "checkedAt": "2026-11-26T12:46:40.795Z"
   },
   {
     "id": "Microsoft.DirectX",
@@ -1333,35 +1373,7 @@
       "status": 200,
       "finalUrl": "https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx"
     },
-    "checkedAt": "2026-11-25T23:48:04.163Z"
-  },
-  {
-    "id": "EclipseAdoptium.Temurin.21.JRE",
-    "name": "Java Runtime 21 (Temurin)",
-    "manifestOk": true,
-    "version": "21.0.13.102",
-    "homepage": "https://adoptium.net/",
-    "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/602574963/1b6e2f5d-a756-4183-b3e3-e555e14d3e9a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A40%3A02Z&rscd=attachment%3B+filename%3DOpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A39%3A47Z&ske=2026-11-26T00%3A40%3A02Z&sks=b&skv=2018-11-09&sig=4Z7cLb2uvl%2Bd3LCnaidv2JD8jqt7ssApEiaqzbX98Lc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI4NSwibmJmIjoxNzk1NjUwNDg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OfZ-074_pXOcRV2f-TnwaF6uIqa2mwGE4VG5EIpor8c&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:06.954Z"
-  },
-  {
-    "id": "Microsoft.OneDrive",
-    "name": "Microsoft OneDrive",
-    "manifestOk": true,
-    "version": "26.212.1029.0006",
-    "homepage": "https://www.microsoft.com/",
-    "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.212.1029.0006/amd64/OneDriveSetup.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://oneclient.sfx.ms/Win/Installers/26.212.1029.0006/amd64/OneDriveSetup.exe"
-    },
-    "checkedAt": "2026-11-25T23:48:06.069Z"
+    "checkedAt": "2026-11-26T12:46:40.986Z"
   },
   {
     "id": "Google.GoogleDrive",
@@ -1375,7 +1387,35 @@
       "status": 200,
       "finalUrl": "https://dl.google.com/release2/drive-file-stream/acntgjfhxz7igs6ef3bcjc565iua_134.0.1.0/setup.exe"
     },
-    "checkedAt": "2026-11-25T23:48:06.265Z"
+    "checkedAt": "2026-11-26T12:46:41.672Z"
+  },
+  {
+    "id": "Microsoft.OneDrive",
+    "name": "Microsoft OneDrive",
+    "manifestOk": true,
+    "version": "26.212.1029.0006",
+    "homepage": "https://www.microsoft.com/",
+    "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.212.1029.0006/amd64/OneDriveSetup.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://oneclient.sfx.ms/Win/Installers/26.212.1029.0006/amd64/OneDriveSetup.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:41.819Z"
+  },
+  {
+    "id": "EclipseAdoptium.Temurin.21.JRE",
+    "name": "Java Runtime 21 (Temurin)",
+    "manifestOk": true,
+    "version": "21.0.13.102",
+    "homepage": "https://adoptium.net/",
+    "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/602574963/1b6e2f5d-a756-4183-b3e3-e555e14d3e9a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A51Z&rscd=attachment%3B+filename%3DOpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A57Z&ske=2026-11-26T13%3A29%3A51Z&sks=b&skv=2018-11-09&sig=NuPyExoiudIKngx2jo4YDWMvhlPXqm8rlOX42dR8sZA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwMCwibmJmIjoxNzk1Njk3MjAwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6zQ5auX5jjsI0b-78sg-iOqguYV85px33PxkruqNFZU&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:42.062Z"
   },
   {
     "id": "Dropbox.Dropbox",
@@ -1389,7 +1429,7 @@
       "status": 200,
       "finalUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20280.4.5053%20Enterprise%20Installer.x64.msi"
     },
-    "checkedAt": "2026-11-25T23:48:08.246Z"
+    "checkedAt": "2026-11-26T12:46:42.483Z"
   },
   {
     "id": "Mega.MEGASync",
@@ -1402,7 +1442,7 @@
       "status": 200,
       "finalUrl": "https://mega.nz/MEGAsyncSetup64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:09.126Z"
+    "checkedAt": "2026-11-26T12:46:42.840Z"
   },
   {
     "id": "Syncthing.Syncthing",
@@ -1414,23 +1454,23 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/14712850/54671e04-713b-475f-bd14-381474489fc6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A25Z&rscd=attachment%3B+filename%3Dsyncthing-windows-amd64-v2.1.7.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A41Z&ske=2026-11-26T00%3A35%3A25Z&sks=b&skv=2018-11-09&sig=rpcYYGKf%2FDscAIsjLndlviuVUDE0eAUyQnTrOMvjohE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI4NywibmJmIjoxNzk1NjUwNDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lG_DgfKUa_S08hP5nsG8egxxf5TkX-VXFlkcdSwiAeE&response-content-disposition=attachment%3B%20filename%3Dsyncthing-windows-amd64-v2.1.7.zip&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/14712850/54671e04-713b-475f-bd14-381474489fc6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A28%3A20Z&rscd=attachment%3B+filename%3Dsyncthing-windows-amd64-v2.1.7.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A20Z&ske=2026-11-26T13%3A28%3A20Z&sks=b&skv=2018-11-09&sig=QOkTM4ziuBSaWRHx6TFzmmsbGIJ7iq%2FaMG6Bn9kLWjI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwMSwibmJmIjoxNzk1Njk3MjAxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.TnX94Zk7vmms31tJtYwxvcPMWFna6fIEs4-Tx2J2-fc&response-content-disposition=attachment%3B%20filename%3Dsyncthing-windows-amd64-v2.1.7.zip&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:09.369Z"
+    "checkedAt": "2026-11-26T12:46:43.449Z"
   },
   {
     "id": "Duplicati.Duplicati",
     "name": "Duplicati",
     "manifestOk": true,
-    "version": "2.4.1.0",
+    "version": "2.4.1.1",
     "homepage": "https://www.duplicati.com/",
-    "installerUrl": "https://github.com/duplicati/duplicati/releases/download/v2.4.1.0_stable_2026-10-29/duplicati-2.4.1.0_stable_2026-10-29-win-x64-gui.msi",
+    "installerUrl": "https://github.com/duplicati/duplicati/releases/download/v2.4.1.1_stable_2026-11-25/duplicati-2.4.1.1_stable_2026-11-25-win-x64-gui.msi",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/22636263/4b1e6fe4-abd0-487e-aed9-cc6a087416c1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A34%3A33Z&rscd=attachment%3B+filename%3Dduplicati-2.4.1.0_stable_2026-10-29-win-x64-gui.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A21Z&ske=2026-11-26T00%3A34%3A33Z&sks=b&skv=2018-11-09&sig=fJ0hlksjd%2FUtGOlqQOzScvv4K%2BQ%2FoduJH0Fkp8MoJvo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA4OCwibmJmIjoxNzk1NjUwNDg4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.VFgw0ulowCSjHrNO_1_pzd_uEHvB_FW-45e0p-ugP6U&response-content-disposition=attachment%3B%20filename%3Dduplicati-2.4.1.0_stable_2026-10-29-win-x64-gui.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/22636263/ba93dcc1-c7c8-4232-85af-a08760c77873?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A52Z&rscd=attachment%3B+filename%3Dduplicati-2.4.1.1_stable_2026-11-25-win-x64-gui.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A19Z&ske=2026-11-26T13%3A25%3A52Z&sks=b&skv=2018-11-09&sig=3KOllXrHtt8%2FEo32n3KFc7lRMKs3nr2qgu4RHfe6vHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDgwMiwibmJmIjoxNzk1Njk3MjAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZGesHvrfcZ5yxIBVuVQ1r2a_nqzwuvdBIr4ptf1BTCE&response-content-disposition=attachment%3B%20filename%3Dduplicati-2.4.1.1_stable_2026-11-25-win-x64-gui.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:10.558Z"
+    "checkedAt": "2026-11-26T12:46:43.686Z"
   },
   {
     "id": "Bitwarden.Bitwarden",
@@ -1442,9 +1482,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/53538899/c3668abd-94ce-40a3-8ce8-1d8d08774ffb?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A39%3A21Z&rscd=attachment%3B+filename%3Dbit-Bitwarden-2026.11.0-x64.appx&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A38%3A44Z&ske=2026-11-26T00%3A39%3A21Z&sks=b&skv=2018-11-09&sig=3aomwaIblZlEOdOSjbqN0D4WI6CwivDQQeUXnNtS9kM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDA4OSwibmJmIjoxNzk1NjUwNDg5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.XEKRanPSsVUHL9QuHPPpXrWguFX6tZKG_NHxNYICSjE&response-content-disposition=attachment%3B%20filename%3Dbit-Bitwarden-2026.11.0-x64.appx&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/53538899/c3668abd-94ce-40a3-8ce8-1d8d08774ffb?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A06Z&rscd=attachment%3B+filename%3Dbit-Bitwarden-2026.11.0-x64.appx&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A35Z&ske=2026-11-26T13%3A26%3A06Z&sks=b&skv=2018-11-09&sig=eamlv%2BfVE7B%2B0ha6YyCv6jkVWC1l3lLVOOigeVIblWo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDgwMiwibmJmIjoxNzk1Njk3MjAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZGesHvrfcZ5yxIBVuVQ1r2a_nqzwuvdBIr4ptf1BTCE&response-content-disposition=attachment%3B%20filename%3Dbit-Bitwarden-2026.11.0-x64.appx&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:11.422Z"
+    "checkedAt": "2026-11-26T12:46:44.082Z"
   },
   {
     "id": "KeePassXCTeam.KeePassXC",
@@ -1456,9 +1496,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/52729242/55aded49-5d35-4c6a-bceb-c058e5dbb503?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A40Z&rscd=attachment%3B+filename%3DKeePassXC-2.8.0-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A22Z&ske=2026-11-26T00%3A35%3A40Z&sks=b&skv=2018-11-09&sig=N8fwWReGcTjGzt2X%2FN%2Fnc6eNIeQw0QYtm3knCPEDWuk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI5MCwibmJmIjoxNzk1NjUwNDkwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DTzoOqXyTqTj-N31N_JFXf33GxdoT3zI8hV-aVR7zgQ&response-content-disposition=attachment%3B%20filename%3DKeePassXC-2.8.0-x64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/52729242/55aded49-5d35-4c6a-bceb-c058e5dbb503?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A28%3A35Z&rscd=attachment%3B+filename%3DKeePassXC-2.8.0-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A20Z&ske=2026-11-26T13%3A28%3A35Z&sks=b&skv=2018-11-09&sig=98d3woRUXUyHj4o4aXUzKwT1%2B3plqMzLYP%2F5REJSZvY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwMiwibmJmIjoxNzk1Njk3MjAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.AEDwePUYfSPv4CYsRSh64j98prGd_R-b1h68GRhzpgg&response-content-disposition=attachment%3B%20filename%3DKeePassXC-2.8.0-x64.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:12.234Z"
+    "checkedAt": "2026-11-26T12:46:44.438Z"
   },
   {
     "id": "AgileBits.1Password",
@@ -1472,7 +1512,7 @@
       "status": 200,
       "finalUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.46.msixbundle"
     },
-    "checkedAt": "2026-11-25T23:48:11.905Z"
+    "checkedAt": "2026-11-26T12:46:44.749Z"
   },
   {
     "id": "Malwarebytes.Malwarebytes",
@@ -1486,7 +1526,7 @@
       "status": 200,
       "finalUrl": "https://data-cdn.mbamupdates.com/web/mb5-setup-consumer/offline/mb5-setup-consumer-5.7.3.376-167.0.5780-1.0.115771.exe"
     },
-    "checkedAt": "2026-11-25T23:48:13.251Z"
+    "checkedAt": "2026-11-26T12:46:45.022Z"
   },
   {
     "id": "Malwarebytes.AdwCleaner",
@@ -1500,7 +1540,7 @@
       "status": 200,
       "finalUrl": "https://adwcleaner.malwarebytes.com/adwcleaner?channel=release"
     },
-    "checkedAt": "2026-11-25T23:48:15.294Z"
+    "checkedAt": "2026-11-26T12:46:45.424Z"
   },
   {
     "id": "Cryptomator.Cryptomator",
@@ -1512,9 +1552,22 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/16446099/00b2b5ec-aba7-4977-af09-601edf4e13f6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A07Z&rscd=attachment%3B+filename%3DCryptomator-1.19.7-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A07Z&ske=2026-11-26T00%3A37%3A07Z&sks=b&skv=2018-11-09&sig=BJQuxdVlhxo9AFxvOHWw5%2F%2F9FdUgdTVaCdKt174CVqo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI5MywibmJmIjoxNzk1NjUwNDkzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.s5V2uZ-nhOXi7rnwwZH7WeIJBpz2odKOf4KTb3KY72I&response-content-disposition=attachment%3B%20filename%3DCryptomator-1.19.7-x64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/16446099/00b2b5ec-aba7-4977-af09-601edf4e13f6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A17Z&rscd=attachment%3B+filename%3DCryptomator-1.19.7-x64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A43Z&ske=2026-11-26T13%3A30%3A17Z&sks=b&skv=2018-11-09&sig=E2u1yNwkPHI1Yvf%2FCpQ62xaoMMGO5UvbLHeuArhCJ3k%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwNCwibmJmIjoxNzk1Njk3MjA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MDiEncl1uoZvSss-gtczfzLI7MqYzVMMbluLZQgqJGw&response-content-disposition=attachment%3B%20filename%3DCryptomator-1.19.7-x64.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:15.115Z"
+    "checkedAt": "2026-11-26T12:46:46.110Z"
+  },
+  {
+    "id": "AnyDesk.AnyDesk",
+    "name": "AnyDesk",
+    "manifestOk": true,
+    "version": "9.8.4",
+    "installerUrl": "https://download.anydesk.com/AnyDesk.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://download.anydesk.com/AnyDesk.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:46.938Z"
   },
   {
     "id": "IDRIX.VeraCrypt",
@@ -1526,64 +1579,23 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/26376490/ed47ce42-58b9-497f-b434-5992fefcfbf7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A18Z&rscd=attachment%3B+filename%3DVeraCrypt_Setup_x64_1.26.31.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A39Z&ske=2026-11-26T00%3A36%3A18Z&sks=b&skv=2018-11-09&sig=cYJr4FuSBHKJB8WLixoRug4HjIW5HpmV189bbtinNNQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjI5MywibmJmIjoxNzk1NjUwNDkzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.s5V2uZ-nhOXi7rnwwZH7WeIJBpz2odKOf4KTb3KY72I&response-content-disposition=attachment%3B%20filename%3DVeraCrypt_Setup_x64_1.26.31.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/26376490/ed47ce42-58b9-497f-b434-5992fefcfbf7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A31Z&rscd=attachment%3B+filename%3DVeraCrypt_Setup_x64_1.26.31.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A24Z&ske=2026-11-26T13%3A25%3A31Z&sks=b&skv=2018-11-09&sig=Va8NOJaoWUB8RdyKbDhdELsDuDUr9xUnXRvBujQGgV0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwNCwibmJmIjoxNzk1Njk3MjA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MDiEncl1uoZvSss-gtczfzLI7MqYzVMMbluLZQgqJGw&response-content-disposition=attachment%3B%20filename%3DVeraCrypt_Setup_x64_1.26.31.msi&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:15.242Z"
+    "checkedAt": "2026-11-26T12:46:46.981Z"
   },
   {
-    "id": "SoftDeluxe.FreeDownloadManager",
-    "name": "Free Download Manager",
+    "id": "ente-io.auth-desktop",
+    "name": "Ente Auth",
     "manifestOk": true,
-    "version": "6.36.0.7128",
-    "installerUrl": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
+    "version": "4.4.27",
+    "homepage": "https://ente.io/",
+    "installerUrl": "https://github.com/ente-io/ente/releases/download/auth-v4.4.27/ente-auth-v4.4.27-installer.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/560284721/5d4a7bf1-9292-4c98-a627-05024f169a59?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A07Z&rscd=attachment%3B+filename%3Dente-auth-v4.4.27-installer.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A46Z&ske=2026-11-26T13%3A27%3A07Z&sks=b&skv=2018-11-09&sig=4RVhfO%2Ff9YmlbX7%2BBIAHgLQ7%2BqLBggY9iYt8aIf3hKc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwNiwibmJmIjoxNzk1Njk3MjA2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1DsejAb9Jqtmf7MzSb06y0FH_N86HJ7Y2SJdjSZBFrw&response-content-disposition=attachment%3B%20filename%3Dente-auth-v4.4.27-installer.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:49:24.698Z"
-  },
-  {
-    "id": "Giorgiotani.Peazip",
-    "name": "PeaZip",
-    "manifestOk": true,
-    "version": "11.4.0",
-    "homepage": "https://peazip.github.io/",
-    "installerUrl": "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WIN64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/1076980/71388277-e1db-427c-8146-2e3388f547cf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A15Z&rscd=attachment%3B+filename%3Dpeazip-11.4.0.WIN64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A13Z&ske=2026-11-26T00%3A37%3A15Z&sks=b&skv=2018-11-09&sig=BwHRt4wth9bNz%2FuWF9ywzrKeyCVvVSEB0Ezw77tQDsE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjM2MywibmJmIjoxNzk1NjUwNTYzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cLf_1lAw5PgkC9g7CLj85odTpT7IaQF91VYuLKPe1_s&response-content-disposition=attachment%3B%20filename%3Dpeazip-11.4.0.WIN64.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:49:25.116Z"
-  },
-  {
-    "id": "TeamViewer.TeamViewer",
-    "name": "TeamViewer",
-    "manifestOk": true,
-    "version": "15.83.7",
-    "homepage": "https://www.teamviewer.com/",
-    "installerUrl": "https://download.teamviewer.com/download/version_15x/update/Update_msi_15.83.7_x64.zip",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://dl.teamviewer.com/download/version_15x/update/Update_msi_15.83.7_x64.zip"
-    },
-    "checkedAt": "2026-11-25T23:48:17.494Z"
-  },
-  {
-    "id": "WinSCP.WinSCP",
-    "name": "WinSCP",
-    "manifestOk": true,
-    "version": "6.7.1",
-    "homepage": "https://winscp.net/",
-    "installerUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe/download",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://gigenet.dl.sourceforge.net/project/winscp/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe?viasf=1&fid=f4b1057dc3652a61&e=1795736896&st=z0OrxhEIe5k5h24EDmVH_g"
-    },
-    "checkedAt": "2026-11-25T23:48:18.996Z"
+    "checkedAt": "2026-11-26T12:46:48.066Z"
   },
   {
     "id": "PuTTY.PuTTY",
@@ -1597,7 +1609,21 @@
       "status": 200,
       "finalUrl": "https://the.earth.li/~sgtatham/putty/0.85/w64/putty-64bit-0.85-installer.msi"
     },
-    "checkedAt": "2026-11-25T23:48:18.371Z"
+    "checkedAt": "2026-11-26T12:46:48.101Z"
+  },
+  {
+    "id": "TeamViewer.TeamViewer",
+    "name": "TeamViewer",
+    "manifestOk": true,
+    "version": "15.83.7",
+    "homepage": "https://www.teamviewer.com/",
+    "installerUrl": "https://download.teamviewer.com/download/version_15x/update/Update_msi_15.83.7_x64.zip",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://dl.teamviewer.com/download/version_15x/update/Update_msi_15.83.7_x64.zip"
+    },
+    "checkedAt": "2026-11-26T12:46:48.133Z"
   },
   {
     "id": "WiresharkFoundation.Wireshark",
@@ -1611,7 +1637,7 @@
       "status": 200,
       "finalUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.10-x64.msi"
     },
-    "checkedAt": "2026-11-25T23:48:17.783Z"
+    "checkedAt": "2026-11-26T12:46:49.040Z"
   },
   {
     "id": "WireGuard.WireGuard",
@@ -1625,7 +1651,21 @@
       "status": 200,
       "finalUrl": "https://download.wireguard.com/windows-client/wireguard-amd64-1.1.1.msi"
     },
-    "checkedAt": "2026-11-25T23:48:20.366Z"
+    "checkedAt": "2026-11-26T12:46:49.223Z"
+  },
+  {
+    "id": "WinSCP.WinSCP",
+    "name": "WinSCP",
+    "manifestOk": true,
+    "version": "6.7.1",
+    "homepage": "https://winscp.net/",
+    "installerUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe/download",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://psychz.dl.sourceforge.net/project/winscp/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe?viasf=1&fid=f4b1057dc3652a61&e=1795783607&st=WRXLNf5LOWtEdL1oiedYeA"
+    },
+    "checkedAt": "2026-11-26T12:46:49.380Z"
   },
   {
     "id": "OpenVPNTechnologies.OpenVPN",
@@ -1639,7 +1679,7 @@
       "status": 200,
       "finalUrl": "https://swupdate.openvpn.net/community/releases/OpenVPN-2.7.9-I002-amd64.msi"
     },
-    "checkedAt": "2026-11-25T23:48:21.467Z"
+    "checkedAt": "2026-11-26T12:46:49.649Z"
   },
   {
     "id": "Cloudflare.Warp",
@@ -1653,7 +1693,7 @@
       "status": 200,
       "finalUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.8.2115.0"
     },
-    "checkedAt": "2026-11-25T23:48:21.324Z"
+    "checkedAt": "2026-11-26T12:46:50.021Z"
   },
   {
     "id": "Tailscale.Tailscale",
@@ -1667,7 +1707,7 @@
       "status": 200,
       "finalUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.7-amd64.msi"
     },
-    "checkedAt": "2026-11-25T23:48:23.861Z"
+    "checkedAt": "2026-11-26T12:46:50.333Z"
   },
   {
     "id": "LocalSend.LocalSend",
@@ -1679,37 +1719,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/578822531/f3a8948a-f0e5-4b1f-b24b-f7a931cf0388?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A39%3A59Z&rscd=attachment%3B+filename%3DLocalSend-1.19.0-windows-x86-64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A39%3A01Z&ske=2026-11-26T00%3A39%3A59Z&sks=b&skv=2018-11-09&sig=5oOLmRqc2ZoeRJZbNJY3jiN0MVF5fc1qvMfA7LeDEBU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjMwMSwibmJmIjoxNzk1NjUwNTAxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Bdj-GOCkmnl_8jSLZ2b-8pEHGIcNMBJOTQ4YPgsVAqo&response-content-disposition=attachment%3B%20filename%3DLocalSend-1.19.0-windows-x86-64.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/578822531/f3a8948a-f0e5-4b1f-b24b-f7a931cf0388?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A48Z&rscd=attachment%3B+filename%3DLocalSend-1.19.0-windows-x86-64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A26Z&ske=2026-11-26T13%3A26%3A48Z&sks=b&skv=2018-11-09&sig=23zx5ujfZGzWdW0NsvroWC6M25xVIXJnEpteOGiKrKc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAwOSwibmJmIjoxNzk1Njk3MjA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.z8LVde49SOfxRJhMqQsCUrLqSnR5YRPo1pZhnrIZM8Y&response-content-disposition=attachment%3B%20filename%3DLocalSend-1.19.0-windows-x86-64.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:23.337Z"
-  },
-  {
-    "id": "KDE.KDEConnect",
-    "name": "KDE Connect",
-    "manifestOk": true,
-    "version": "26.08.1",
-    "homepage": "https://kde.org/",
-    "installerUrl": "https://download.kde.org/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://nnenix.mm.fcix.net/kdeftp/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
-    },
-    "checkedAt": "2026-11-25T23:48:25.115Z"
-  },
-  {
-    "id": "Genymobile.scrcpy",
-    "name": "scrcpy",
-    "manifestOk": true,
-    "version": "5.0.1",
-    "homepage": "https://github.com/Genymobile",
-    "installerUrl": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-win64-v5.0.1.zip",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/111583593/53195c16-c9a9-4bba-93b4-1b9a0cd0f77e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A31%3A31Z&rscd=attachment%3B+filename%3Dscrcpy-win64-v5.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A30%3A44Z&ske=2026-11-26T00%3A31%3A31Z&sks=b&skv=2018-11-09&sig=Pgngfbtkt2wClutKlYhiMUZE1aXOj%2B%2F1ZlyTbHsAfR8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjMwMiwibmJmIjoxNzk1NjUwNTAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.HvBS7ApPhaWc94SxB_SQ3FQ1mPj2V7c3gJDGrVoOE48&response-content-disposition=attachment%3B%20filename%3Dscrcpy-win64-v5.0.1.zip&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:24.466Z"
+    "checkedAt": "2026-11-26T12:46:50.975Z"
   },
   {
     "id": "Google.PlatformTools",
@@ -1723,7 +1735,21 @@
       "status": 200,
       "finalUrl": "https://dl.google.com/android/repository/platform-tools_r37.0.3-win.zip"
     },
-    "checkedAt": "2026-11-25T23:48:25.772Z"
+    "checkedAt": "2026-11-26T12:46:51.223Z"
+  },
+  {
+    "id": "Genymobile.scrcpy",
+    "name": "scrcpy",
+    "manifestOk": true,
+    "version": "5.0.1",
+    "homepage": "https://github.com/Genymobile",
+    "installerUrl": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-win64-v5.0.1.zip",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/111583593/53195c16-c9a9-4bba-93b4-1b9a0cd0f77e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A26%3A24Z&rscd=attachment%3B+filename%3Dscrcpy-win64-v5.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A31Z&ske=2026-11-26T13%3A26%3A24Z&sks=b&skv=2018-11-09&sig=VSR0cDLnmUJ%2FjvNidVG2xhk7hkWRsgmaUAC4R3mtyg0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODg3NSwibmJmIjoxNzk1Njk3MDc1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.pS36AuXUfgHNkOY0Fg2WMXVpf9vaWQYeIRv4Jv6rGrY&response-content-disposition=attachment%3B%20filename%3Dscrcpy-win64-v5.0.1.zip&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:51.560Z"
   },
   {
     "id": "Google.QuickShare",
@@ -1737,7 +1763,21 @@
       "status": 200,
       "finalUrl": "https://dl.google.com/release2/Nearby/adxmodzecvn47pv26t6p7cldf2ja_1.0.2757.0/better_together.msi"
     },
-    "checkedAt": "2026-11-25T23:48:26.176Z"
+    "checkedAt": "2026-11-26T12:46:51.847Z"
+  },
+  {
+    "id": "KDE.KDEConnect",
+    "name": "KDE Connect",
+    "manifestOk": true,
+    "version": "26.08.1",
+    "homepage": "https://kde.org/",
+    "installerUrl": "https://download.kde.org/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://mirrors.mit.edu/kde/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
+    },
+    "checkedAt": "2026-11-26T12:46:52.479Z"
   },
   {
     "id": "Samsung.SmartSwitch",
@@ -1750,7 +1790,7 @@
       "status": 200,
       "finalUrl": "https://downloadcenter.samsung.com/content/SW/202406/20240626140001115/Smart.Switch.PC_Setup.exe"
     },
-    "checkedAt": "2026-11-25T23:48:27.685Z"
+    "checkedAt": "2026-11-26T12:46:52.589Z"
   },
   {
     "id": "Apple.iTunes",
@@ -1764,35 +1804,21 @@
       "status": 200,
       "finalUrl": "https://secure-appldnld.apple.com/itunes12/142-28289-20261026-6acff6c8-72eb-4045-84eb-fd35239ac645/iTunes64Setup.exe"
     },
-    "checkedAt": "2026-11-25T23:48:27.947Z"
+    "checkedAt": "2026-11-26T12:46:52.670Z"
   },
   {
     "id": "Microsoft.VisualStudioCode",
     "name": "Visual Studio Code",
     "manifestOk": true,
-    "version": "1.146.0",
+    "version": "1.148.0",
     "homepage": "https://www.microsoft.com/",
-    "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeUserSetup-x64-1.146.0.exe",
+    "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/661626d0e72f97806550790a98fb87116c9db825/VSCodeUserSetup-x64-1.148.0.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeUserSetup-x64-1.146.0.exe"
+      "finalUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/661626d0e72f97806550790a98fb87116c9db825/VSCodeUserSetup-x64-1.148.0.exe"
     },
-    "checkedAt": "2026-11-25T23:48:28.533Z"
-  },
-  {
-    "id": "Git.Git",
-    "name": "Git",
-    "manifestOk": true,
-    "version": "2.56.1",
-    "homepage": "https://gitforwindows.org/",
-    "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/23216272/5b3798ad-0b47-4c8d-9b26-e00bfc8b850e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A41%3A27Z&rscd=attachment%3B+filename%3DGit-2.56.1-64-bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A41%3A20Z&ske=2026-11-26T00%3A41%3A27Z&sks=b&skv=2018-11-09&sig=FLewPRqxRRSTDdGpTuZp%2BB4sOYtvH2Q25LNNXvD541Q%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjMwNywibmJmIjoxNzk1NjUwNTA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8l97vZR7LwDG5xabruz-bPyJIotqZUmWDWI9VdM_eaA&response-content-disposition=attachment%3B%20filename%3DGit-2.56.1-64-bit.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:29.211Z"
+    "checkedAt": "2026-11-26T12:46:53.029Z"
   },
   {
     "id": "GitHub.GitHubDesktop",
@@ -1806,7 +1832,7 @@
       "status": 200,
       "finalUrl": "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-x64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:30.303Z"
+    "checkedAt": "2026-11-26T12:46:53.433Z"
   },
   {
     "id": "Python.Python.3.14",
@@ -1820,7 +1846,7 @@
       "status": 200,
       "finalUrl": "https://www.python.org/ftp/python/3.14.10/python-3.14.10-amd64.exe"
     },
-    "checkedAt": "2026-11-25T23:48:30.470Z"
+    "checkedAt": "2026-11-26T12:46:53.733Z"
   },
   {
     "id": "OpenJS.NodeJS.LTS",
@@ -1834,7 +1860,21 @@
       "status": 200,
       "finalUrl": "https://nodejs.org/dist/v26.13.1/node-v26.13.1-x64.msi"
     },
-    "checkedAt": "2026-11-25T23:48:30.841Z"
+    "checkedAt": "2026-11-26T12:46:53.871Z"
+  },
+  {
+    "id": "Git.Git",
+    "name": "Git",
+    "manifestOk": true,
+    "version": "2.56.1",
+    "homepage": "https://gitforwindows.org/",
+    "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/23216272/5b3798ad-0b47-4c8d-9b26-e00bfc8b850e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A57Z&rscd=attachment%3B+filename%3DGit-2.56.1-64-bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A30%3A02Z&ske=2026-11-26T13%3A30%3A57Z&sks=b&skv=2018-11-09&sig=ptRphMGxzvydPQ16LqdjrD10lPHVfvqP%2BJ9zAwpGZQM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAxMiwibmJmIjoxNzk1Njk3MjEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5U0Bh_mCRVOlaG7qaMw0IWstMvY0Dj-BAlqN31lMqbg&response-content-disposition=attachment%3B%20filename%3DGit-2.56.1-64-bit.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:54.123Z"
   },
   {
     "id": "Microsoft.PowerShell",
@@ -1846,23 +1886,9 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/49609581/2cafb78d-cfcb-4fed-ac96-e2b80eea6994?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A18Z&rscd=attachment%3B+filename%3DPowerShell-7.7.0.msixbundle&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A11Z&ske=2026-11-26T00%3A35%3A18Z&sks=b&skv=2018-11-09&sig=uE902O9XQSu978Q%2BLKcrHG0lkgWk35SVGZ0l%2Bsh10Fw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDExMCwibmJmIjoxNzk1NjUwNTEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MkxeEQwJpyok4EROJbJ61fiD4tgxnBjs7UEsfY066e4&response-content-disposition=attachment%3B%20filename%3DPowerShell-7.7.0.msixbundle&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/49609581/2cafb78d-cfcb-4fed-ac96-e2b80eea6994?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A30%3A06Z&rscd=attachment%3B+filename%3DPowerShell-7.7.0.msixbundle&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A44Z&ske=2026-11-26T13%3A30%3A06Z&sks=b&skv=2018-11-09&sig=Xg0wt83MM9SrWbokrmDsyH9e3fbyW1IuTgE5V8ncPCE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDY5OSwibmJmIjoxNzk1Njk3MDk5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EmmVKiwoTjQ6L9OCcChQeA8B4RQrG6NOlJ0cr3Nt9Cg&response-content-disposition=attachment%3B%20filename%3DPowerShell-7.7.0.msixbundle&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:48:32.423Z"
-  },
-  {
-    "id": "Microsoft.WindowsTerminal",
-    "name": "Windows Terminal",
-    "manifestOk": true,
-    "version": "1.25.3131.0",
-    "homepage": "https://www.microsoft.com",
-    "installerUrl": "https://github.com/microsoft/terminal/releases/download/v1.25.3131.0/Microsoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/100060912/d9488aeb-faa4-44ef-b6ea-2974f393ec6c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A33Z&rscd=attachment%3B+filename%3DMicrosoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A59Z&ske=2026-11-26T00%3A35%3A33Z&sks=b&skv=2018-11-09&sig=soZKpN7u8muTT%2FUgMZiz0aOxcw0Qi41E8NYzcPLkngs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjMxMSwibmJmIjoxNzk1NjUwNTExLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6lPjta4-DYEqqr0j9bwgMNrFz94QJ1y7iODmPT1QkTA&response-content-disposition=attachment%3B%20filename%3DMicrosoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:33.344Z"
+    "checkedAt": "2026-11-26T12:46:54.999Z"
   },
   {
     "id": "Docker.DockerDesktop",
@@ -1876,49 +1902,35 @@
       "status": 200,
       "finalUrl": "https://desktop.docker.com/win/main/amd64/247138/Docker%20Desktop%20Installer.exe"
     },
-    "checkedAt": "2026-11-25T23:48:34.049Z"
+    "checkedAt": "2026-11-26T12:46:55.067Z"
+  },
+  {
+    "id": "Microsoft.WindowsTerminal",
+    "name": "Windows Terminal",
+    "manifestOk": true,
+    "version": "1.25.3131.0",
+    "homepage": "https://www.microsoft.com",
+    "installerUrl": "https://github.com/microsoft/terminal/releases/download/v1.25.3131.0/Microsoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/100060912/d9488aeb-faa4-44ef-b6ea-2974f393ec6c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A29%3A43Z&rscd=attachment%3B+filename%3DMicrosoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A29%3A37Z&ske=2026-11-26T13%3A29%3A43Z&sks=b&skv=2018-11-09&sig=SHqIsPTBC5rfrrObkN7y5si9aIWXa6Rdeek8iKMpkrQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5ODk5NSwibmJmIjoxNzk1Njk3MTk1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.pZAqX6Lic93R5AnCNGbQV5y0ucw03B54vHwyS_7Pc5Q&response-content-disposition=attachment%3B%20filename%3DMicrosoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:55.274Z"
   },
   {
     "id": "Postman.Postman",
     "name": "Postman",
     "manifestOk": true,
-    "version": "12.38.3",
+    "version": "12.38.5",
     "homepage": "https://www.postman.com/",
-    "installerUrl": "https://dl.pstmn.io/download/version/12.38.3/windows_64",
+    "installerUrl": "https://dl.pstmn.io/download/version/12.38.5/windows_64",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://dl.pstmn.io/download/version/12.38.3/windows_64"
+      "finalUrl": "https://dl.pstmn.io/download/version/12.38.5/windows_64"
     },
-    "checkedAt": "2026-11-25T23:48:33.842Z"
-  },
-  {
-    "id": "DBeaver.DBeaver.Community",
-    "name": "DBeaver Community",
-    "manifestOk": true,
-    "version": "26.2.5",
-    "homepage": "https://dbeaver.io/",
-    "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.2.5/dbeaver-ce-26.2.5-windows-x86_64.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/44662669/588017eb-ce5e-4201-b4f2-2decdbc45d77?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A05Z&rscd=attachment%3B+filename%3Ddbeaver-ce-26.2.5-windows-x86_64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A56Z&ske=2026-11-26T00%3A35%3A05Z&sks=b&skv=2018-11-09&sig=HC3oV8hlkImvF7tQB8TsZ4avf6MKzUhoRx2pwYRc8ng%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDExMywibmJmIjoxNzk1NjUwNTEzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.eD5UjFIznmgkp72xBIjJVasYdKt269gYjdjAaUzH2kg&response-content-disposition=attachment%3B%20filename%3Ddbeaver-ce-26.2.5-windows-x86_64.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:35.654Z"
-  },
-  {
-    "id": "JetBrains.Toolbox",
-    "name": "JetBrains Toolbox",
-    "manifestOk": true,
-    "version": "3.9.2.0",
-    "homepage": "https://www.jetbrains.com/",
-    "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.9.2.89815.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-3.9.2.89815.exe?Expires=1795736888&Signature=R7JNb2mWIhO9hHFE0CMn1LxdN1DQw1okC5liHrr5DMsceUgD22OU1xox4DiPPrw4JEG6EW6Nl4gWkts41qAXXcS~n1mMl8Eet8lOBdoeGjjXwbym6aVOQpWyZlaXzeE8P5riVdMF1671fLEAVUnCuMcWxEdvskDLEdMBqwd9Ef9qvvZ~Enk9K8uqajTLzxNJtA2NrlFKFdMjp8eHU7w2JgtHD59nBMeH-iYPwmy7Iuk7PyldQnpXsJ7v8yY4Y9zW75K2zCLXI9AQLsdy~a6gKFfqCdjCUESX7G9zzGAsBujIsXUf2~hjdRnwY2mSNDb4BbjTtK1tB~qDgC7zorFtqQ__&Key-Pair-Id=K2PI9GMSMWJY0"
-    },
-    "checkedAt": "2026-11-25T23:48:37.245Z"
+    "checkedAt": "2026-11-26T12:46:55.356Z"
   },
   {
     "id": "Google.AndroidStudio",
@@ -1932,76 +1944,35 @@
       "status": 200,
       "finalUrl": "https://edgedl.me.gvt1.com/android/studio/install/2026.2.2.10/android-studio-rabbit2-patch2-windows.exe"
     },
-    "checkedAt": "2026-11-25T23:48:36.299Z"
+    "checkedAt": "2026-11-26T12:46:56.300Z"
   },
   {
-    "id": "alexx2000.DoubleCommander",
-    "name": "Double Commander",
+    "id": "DBeaver.DBeaver.Community",
+    "name": "DBeaver Community",
     "manifestOk": true,
-    "version": "1.2.11",
-    "homepage": "https://github.com/doublecmd",
-    "installerUrl": "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.x86_64-win64.msi",
+    "version": "26.2.5",
+    "homepage": "https://dbeaver.io/",
+    "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.2.5/dbeaver-ce-26.2.5-windows-x86_64.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/122294881/a2c36b12-c3be-486a-a17a-96bbe9298062?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A37Z&rscd=attachment%3B+filename%3Ddoublecmd-1.2.11.x86_64-win64.msi&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A52Z&ske=2026-11-26T00%3A35%3A37Z&sks=b&skv=2018-11-09&sig=lluSiC%2Bf0feDJ4lxM1iKr0M40nnha1uqtzWyEtVTSpI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjM2NCwibmJmIjoxNzk1NjUwNTY0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.mROAEShPNxj4GhU4CQWdb7v5_FBpAt8iSrjNJK3dxNQ&response-content-disposition=attachment%3B%20filename%3Ddoublecmd-1.2.11.x86_64-win64.msi&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/44662669/588017eb-ce5e-4201-b4f2-2decdbc45d77?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A28%3A47Z&rscd=attachment%3B+filename%3Ddbeaver-ce-26.2.5-windows-x86_64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A37Z&ske=2026-11-26T13%3A28%3A47Z&sks=b&skv=2018-11-09&sig=h%2B5wtHH%2FscIh3Zj0OGudRlYD0IoSROqV4RXmDKHFldw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDgxNCwibmJmIjoxNzk1Njk3MjE0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.So_WvxRDEKh7AXHx8zJBwq6z2lAsyCWYdt20-BIc5kQ&response-content-disposition=attachment%3B%20filename%3Ddbeaver-ce-26.2.5-windows-x86_64.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:49:26.735Z"
+    "checkedAt": "2026-11-26T12:46:56.622Z"
   },
   {
-    "id": "Rainmeter.Rainmeter",
-    "name": "Rainmeter",
+    "id": "JetBrains.Toolbox",
+    "name": "JetBrains Toolbox",
     "manifestOk": true,
-    "version": "4.5.28.3936",
-    "homepage": "https://www.rainmeter.net/",
-    "installerUrl": "https://github.com/rainmeter/rainmeter/releases/download/v4.5.28.3936/Rainmeter-4.5.28.exe",
+    "version": "3.9.2.0",
+    "homepage": "https://www.jetbrains.com/",
+    "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.9.2.89815.exe",
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/3887375/bf268841-cdbd-4301-8a44-cb12aa9dffb0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A36%3A46Z&rscd=attachment%3B+filename%3DRainmeter-4.5.28.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A36%3A46Z&ske=2026-11-26T00%3A36%3A46Z&sks=b&skv=2018-11-09&sig=b3%2Fb1rJ%2Br4YtxaqClaPnAjfKT1eD0W9W93ICIQL12SY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MDgwOSwibmJmIjoxNzk1NjUwNTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Uy0ZpFRVNsxbTjyt44gIkIUiA5Qr673-qDIIPJaGv-Q&response-content-disposition=attachment%3B%20filename%3DRainmeter-4.5.28.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-3.9.2.89815.exe?Signature=WjhttP5uiTAohaJf3DJAHhh~D8Q7vEIT30ki1KM0xx8fhmwGu8N74JR~2R2sla-cuSDoyVeunu6FrQKYIoJTiUn6jbjbgyPNYIaxRMSahREaPKDEZ2hQAVc7tR1Ra7PgpMzJ8Z8mZA4VmNZzYv2Mq8Pe66V9uqtEv1UagbkmvtB-u1ToYcrCVAduvxrFYSHEPBQXFfstEKzIbBNe26gRS01n4Pv0kr3T-eFs3z5vORoaHFkVimjYxHGr0zO-RzGj56DTGYmQBdc0Az5CK3wkHFrKIwjTdcfEKlwJ0UxGkhJUqF0WfmADYknIn4W082ZSTrf3-KOJzcNSUB-IwirY7Q__&Key-Pair-Id=K2PI9GMSMWJY0&Expires=1795783288"
     },
-    "checkedAt": "2026-11-25T23:48:37.164Z"
-  },
-  {
-    "id": "xanderfrangos.twinkletray",
-    "name": "Twinkle Tray",
-    "manifestOk": true,
-    "version": "1.17.2",
-    "homepage": "https://twinkletray.com/",
-    "installerUrl": "https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.17.2/Twinkle.Tray.v1.17.2.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/202409202/2cb0f997-754c-445e-824e-6812800bc4c0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A35%3A39Z&rscd=attachment%3B+filename%3DTwinkle.Tray.v1.17.2.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A35%3A30Z&ske=2026-11-26T00%3A35%3A39Z&sks=b&skv=2018-11-09&sig=anvjNDJK%2FBT41luBUrjUa3bEN%2Fb9%2FoxeLfJoHS5ZvqQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjMxNywibmJmIjoxNzk1NjUwNTE3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.KYj7ZQ8_JR0kSAKbY1NbsJqiPU2Lci2iY69WHrrrDg0&response-content-disposition=attachment%3B%20filename%3DTwinkle.Tray.v1.17.2.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:48:38.922Z"
-  },
-  {
-    "id": "AnyDesk.AnyDesk",
-    "name": "AnyDesk",
-    "manifestOk": true,
-    "version": "9.8.4",
-    "installerUrl": "https://download.anydesk.com/AnyDesk.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://download.anydesk.com/AnyDesk.exe"
-    },
-    "checkedAt": "2026-11-25T23:49:27.049Z"
-  },
-  {
-    "id": "ente-io.auth-desktop",
-    "name": "Ente Auth",
-    "manifestOk": true,
-    "version": "4.4.27",
-    "homepage": "https://ente.io/",
-    "installerUrl": "https://github.com/ente-io/ente/releases/download/auth-v4.4.27/ente-auth-v4.4.27-installer.exe",
-    "link": {
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/560284721/5d4a7bf1-9292-4c98-a627-05024f169a59?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A37%3A44Z&rscd=attachment%3B+filename%3Dente-auth-v4.4.27-installer.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A37%3A13Z&ske=2026-11-26T00%3A37%3A44Z&sks=b&skv=2018-11-09&sig=NvuUKxJj7lW0CNNutCpUmPLltk8gXex4oMwkSlpKg1g%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1MjM2NiwibmJmIjoxNzk1NjUwNTY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.k1FuJLmeJdg5plsMM0BkKmEspuaNkYcTqWdBE5ooxTI&response-content-disposition=attachment%3B%20filename%3Dente-auth-v4.4.27-installer.exe&response-content-type=application%2Foctet-stream"
-    },
-    "checkedAt": "2026-11-25T23:49:28.551Z"
+    "checkedAt": "2026-11-26T12:46:57.406Z"
   },
   {
     "id": "rocksdanister.LivelyWallpaper",
@@ -2013,8 +1984,36 @@
     "link": {
       "ok": true,
       "status": 200,
-      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/201188122/aad74210-6699-4303-af5a-a3b371d9e88f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T00%3A34%3A49Z&rscd=attachment%3B+filename%3Dlively_setup_x86_full_v2210.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-25T23%3A34%3A40Z&ske=2026-11-26T00%3A34%3A49Z&sks=b&skv=2018-11-09&sig=UTGSkFINEm1ef6cVPiFER1eVZEn%2BuZF72riOU1QCyys%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY1NDE2NywibmJmIjoxNzk1NjUwNTY3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.NkSEPVXF_1-LLYJLo-ZxfdKwuNb6NP4PcG87hMco3XY&response-content-disposition=attachment%3B%20filename%3Dlively_setup_x86_full_v2210.exe&response-content-type=application%2Foctet-stream"
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/201188122/aad74210-6699-4303-af5a-a3b371d9e88f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A25%3A31Z&rscd=attachment%3B+filename%3Dlively_setup_x86_full_v2210.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A25%3A24Z&ske=2026-11-26T13%3A25%3A31Z&sks=b&skv=2018-11-09&sig=Jy0dFHIUSVXWecDpj%2FxS0anHzKe67l62OXj3MPpeBTw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwMDgxNiwibmJmIjoxNzk1Njk3MjE2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5NODWColM8aK-N51skySEWteyE-IACzzG5U_O7Nh9k8&response-content-disposition=attachment%3B%20filename%3Dlively_setup_x86_full_v2210.exe&response-content-type=application%2Foctet-stream"
     },
-    "checkedAt": "2026-11-25T23:49:29.036Z"
+    "checkedAt": "2026-11-26T12:46:57.766Z"
+  },
+  {
+    "id": "Rainmeter.Rainmeter",
+    "name": "Rainmeter",
+    "manifestOk": true,
+    "version": "4.5.28.3936",
+    "homepage": "https://www.rainmeter.net/",
+    "installerUrl": "https://github.com/rainmeter/rainmeter/releases/download/v4.5.28.3936/Rainmeter-4.5.28.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/3887375/bf268841-cdbd-4301-8a44-cb12aa9dffb0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A27%3A10Z&rscd=attachment%3B+filename%3DRainmeter-4.5.28.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A26%3A48Z&ske=2026-11-26T13%3A27%3A10Z&sks=b&skv=2018-11-09&sig=jy7Ca64ImQfB32RWcW2Xn%2BnFMaETXvj%2FRgT3SLzFeX0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5NzQyMCwibmJmIjoxNzk1Njk3MTIwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GPXVXiAVc8KJo0AAJvGMo7sWACgK2QYiTGl4_QVnlfU&response-content-disposition=attachment%3B%20filename%3DRainmeter-4.5.28.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:57.834Z"
+  },
+  {
+    "id": "xanderfrangos.twinkletray",
+    "name": "Twinkle Tray",
+    "manifestOk": true,
+    "version": "1.17.2",
+    "homepage": "https://twinkletray.com/",
+    "installerUrl": "https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.17.2/Twinkle.Tray.v1.17.2.exe",
+    "link": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/202409202/2cb0f997-754c-445e-824e-6812800bc4c0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T13%3A28%3A35Z&rscd=attachment%3B+filename%3DTwinkle.Tray.v1.17.2.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T12%3A28%3A21Z&ske=2026-11-26T13%3A28%3A35Z&sks=b&skv=2018-11-09&sig=rniG8GylIYixLG69iCLmarHTn3W%2FDsHgqUCRX37Lu8A%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTY5OTAxNiwibmJmIjoxNzk1Njk3MjE2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.O0tdYzsJffe8VRJruRd3SBhHvF7OVsjdAqiWYcVOVfU&response-content-disposition=attachment%3B%20filename%3DTwinkle.Tray.v1.17.2.exe&response-content-type=application%2Foctet-stream"
+    },
+    "checkedAt": "2026-11-26T12:46:58.267Z"
   }
 ]
