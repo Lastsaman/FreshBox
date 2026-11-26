@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'publish-source');
+fs.mkdirSync(out,{recursive:true});
+const files=['.gitignore','README.md','THIRD_PARTY_NOTICES.md','package.json','package-lock.json','app.js','main.js','preload.js','index.html','styles.css','reviewed-catalog.js','install-plan.js','full-catalog.js'];
+for(const f of files)fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const dir of ['assets/icons','tools','tests','reports'])fs.mkdirSync(path.join(out,dir),{recursive:true});
+for(const f of ['freshbox-logo.png','icon-sources.json'])fs.copyFileSync(path.join(root,'assets',f),path.join(out,'assets',f));
+for(const item of require('../reviewed-catalog'))fs.copyFileSync(path.join(root,'assets/icons',`${item.icon}.webp`),path.join(out,'assets/icons',`${item.icon}.webp`));
+fs.copyFileSync(path.join(root,'assets/icons/default.webp'),path.join(out,'assets/icons/default.webp'));
+for(const f of ['stage-release.js','audit-catalog.js','smoke-ui.js','repair-icons.js','prepare-public-source.js','fetch-icons.js'])fs.copyFileSync(path.join(root,'tools',f),path.join(out,'tools',f));
+fs.copyFileSync(path.join(root,'tests/catalog.test.js'),path.join(out,'tests/catalog.test.js'));
+fs.copyFileSync(path.join(root,'reports/catalog-audit.json'),path.join(out,'reports/catalog-audit.json'));
+console.log('Public source allowlist prepared:',out);
