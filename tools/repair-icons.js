@@ -26,12 +26,14 @@ const aliases={
   'Cloudflare.Warp':'cloudflare','KDE.KDEConnect':'kde-connect','Google.PlatformTools':'android',
   'Google.QuickShare':'quick-share','Apple.iTunes':'itunes','Microsoft.VisualStudioCode':'visual-studio-code',
   'Python.Python.3.14':'python','OpenJS.NodeJS.LTS':'nodejs','Microsoft.PowerShell':'powershell',
-  'Microsoft.WindowsTerminal':'windows-terminal','JetBrains.Toolbox':'jetbrains','Google.AndroidStudio':'android-studio'
+  'Microsoft.WindowsTerminal':'windows-terminal','JetBrains.Toolbox':'jetbrains','Google.AndroidStudio':'android-studio',
+  'UderzoSoftware.SpaceSniffer':'space-sniffer'
 };
 Object.assign(aliases,{'Microsoft.VCRedist.2015+.x64':'visual-studio-2026','Microsoft.VCRedist.2015+.x86':'visual-studio-2026','Microsoft.DirectX':'microsoft-windows','Mega.MEGASync':'mega-nz','Google.QuickShare':'quickshare'});
 Object.assign(aliases,{'Microsoft.PowerToys':'microsoft-windows','Microsoft.Sysinternals.Autoruns':'microsoft-windows','Microsoft.Sysinternals.ProcessExplorer':'microsoft-windows','Microsoft.WindowsTerminal':'microsoft-windows'});
 const directIcons={'Giorgiotani.Peazip':'https://a.fsdn.com/allura/p/peazip/icon','Ditto.Ditto':'https://a.fsdn.com/allura/p/ditto-cp/icon','PDFgear.PDFgear':'https://www.pdfgear.com/img/pdfgear_headr_icon.svg','Microsoft.PowerToys':'https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/icons/PowerToys%20icon/ICO/PowerToys.ico'};
 directIcons['IDRIX.VeraCrypt']='https://a.fsdn.com/allura/p/veracrypt/icon';
+directIcons['UderzoSoftware.SpaceSniffer']='https://www.uderzo.it/main_products/space_sniffer/media/spacesniffer_icon.jpg';
 const officialSites={
  'SoftDeluxe.FreeDownloadManager':'https://www.freedownloadmanager.org/','Giorgiotani.Peazip':'https://peazip.github.io/',
  'RARLab.WinRAR':'https://www.win-rar.com/','voidtools.Everything':'https://www.voidtools.com/',
@@ -54,7 +56,7 @@ const officialSites={
  'KDE.KDEConnect':'https://kdeconnect.kde.org/','LocalSend.LocalSend':'https://localsend.org/',
  'Apple.iTunes':'https://www.apple.com/','rocksdanister.LivelyWallpaper':'https://www.rocksdanister.com/lively/',
  'Microsoft.WindowsTerminal':'https://learn.microsoft.com/','xanderfrangos.twinkletray':'https://twinkletray.com/',
- 'Rainmeter.Rainmeter':'https://www.rainmeter.net/'
+ 'Rainmeter.Rainmeter':'https://www.rainmeter.net/','UderzoSoftware.SpaceSniffer':'https://www.uderzo.it/'
 };
 function decodeIco(bytes){
  if(bytes.length<6||bytes.readUInt16LE(0)!==0||bytes.readUInt16LE(2)!==1)return bytes;
