@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.simpleicons.org data:; style-src 'self' 'unsafe-inline'; script-src 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshBox | نصب سریع ویندوز</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><img class="brand-logo" src="assets/freshbox-logo.png" alt="FreshBox" /><div><strong>FreshBox</strong><span id="brandTagline">شروع تازه برای ویندوز</span></div></div>
+      <div class="side-label" id="sideLibrary">کتابخانه</div>
+      <nav id="categoryNav"></nav>
+      <div class="sidebar-foot"><div class="shield">⌁</div><div><b id="safeInstall">نصب امن و به‌روز</b><small id="safeInstallSub">با Windows Package Manager</small><small class="app-credit-version">FreshBox v0.2.0</small><a class="app-credit" href="https://t.me/LASTsaman" target="_blank" rel="noreferrer">Created by lastsaman <span>↗</span></a></div></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><button class="back">‹</button><div class="crumb"><span id="crumbHome">خانه</span> <span>/</span> <span id="crumbLibrary">کتابخانه نرم‌افزار</span></div><div class="top-actions"><span class="status-dot"></span> <span id="connectedText">WinGet متصل است</span><select id="languageSelect" aria-label="Language"><option value="fa">فارسی</option><option value="en">English</option><option value="ru">Русский</option></select><button class="icon-btn">?</button></div></header>
+      <section class="hero"><div><div class="eyebrow" id="heroEyebrow">راه‌اندازی در چند دقیقه</div><h1 id="heroTitle">ویندوزت را آماده کن<span>.</span></h1><p id="heroText">نرم‌افزارهای لازم را انتخاب کن؛ FreshBox آخرین نسخه را از منبع معتبر نصب می‌کند.</p></div><div class="hero-orbit"><img src="assets/freshbox-logo.png" alt="" /><i>7-Zip</i><i>VLC</i><i>VS Code</i></div></section>
+      <section class="quick-row"><button class="preset active" data-preset="starter"><span>⚡</span><div><b>شروع سریع</b><small>برای هر کامپیوتر تازه</small></div><em>۱۲ برنامه</em></button><button class="preset" data-preset="work"><span>◫</span><div><b>کار و بهره‌وری</b><small>تمرکز روی کار روزانه</small></div><em>۹ برنامه</em></button><button class="preset" data-preset="gaming"><span>◈</span><div><b>گیمینگ</b><small>ابزارهای ضروری گیمرها</small></div><em>۸ برنامه</em></button><button class="preset" data-preset="dev"><span>⌘</span><div><b>توسعه‌دهنده</b><small>محیط آماده کدنویسی</small></div><em>۱۰ برنامه</em></button></section>
+      <section class="install-location"><div class="location-icon">▣</div><div class="location-copy"><b id="installLocationTitle">محل نصب برنامه‌ها</b><small id="installLocationHint">پیش‌فرض روی درایو C است؛ برای آزاد نگه‌داشتن C مسیر دیگری انتخاب کن.</small></div><div class="location-controls"><input id="installLocation" value="C:\Program Files" aria-label="Installation location" /><button id="pickLocation" class="ghost">انتخاب پوشه</button><button id="defaultLocation" class="ghost">پیش‌فرض</button></div></section>
+      <section class="toolbar"><div><h2 id="appsTitle">انتخاب برنامه‌ها</h2><p id="resultCount">نمایش برنامه‌های منتخب</p></div><div class="tools"><label class="search">⌕<input id="search" placeholder="جست‌وجوی برنامه..." /></label><select id="categorySelect" class="category-select" aria-label="Category"></select><button id="selectAll" class="ghost">انتخاب همه</button><button id="clearAll" class="ghost">برداشتن تیک‌ها</button><button id="checkSources" class="ghost check-btn">بررسی لینک‌ها</button></div></section>
+      <div id="appGrid" class="app-grid"></div>
+      <section class="progress-panel"><div class="progress-head"><div><b id="progressTitle">وضعیت آماده است</b><span id="progressText">قبل از نصب، می‌توانی منبع و نسخهٔ برنامه‌ها را بررسی کنی.</span></div><strong id="progressPercent">۰٪</strong></div><div class="progress-track"><i id="progressBar"></i></div><div class="log-box" id="logBox"><div class="log-line muted">لاگ FreshBox آماده است.</div></div></section>
+      <section class="system-panel"><div class="system-icon">⚙</div><div class="system-copy"><b id="systemTitle">تنظیمات کاربردی ویندوز</b><span id="systemText">دسترسی سریع به گزینه‌های مهم، بدون تغییر پنهانی در سیستم</span></div><button id="securityBtn" class="system-action">باز کردن Windows Security <span>←</span></button><button id="updatesBtn" class="system-action secondary">Windows Update <span>←</span></button></section>
+    </main>
+    <footer class="install-dock"><div class="selected-summary"><div class="count-bubble" id="selectedCount">0</div><div><b id="selectedLabel">برنامه انتخاب‌شده</b><small id="selectedNames">برای شروع چند مورد را انتخاب کن</small></div></div><div class="dock-note" id="dockNote">نسخه‌ها از WinGet دریافت می‌شوند<br/><span>✓ منبع رسمی · ✓ قابل بازگشت</span></div><button id="installBtn" disabled>نصب انتخاب‌شده‌ها <span>←</span></button></footer>
+  </div>
+  <div class="job-modal" id="jobModal" aria-hidden="true"><div class="job-modal-card" role="dialog" aria-modal="true" aria-labelledby="jobModalTitle"><button class="job-modal-close" id="jobModalClose" aria-label="Close">×</button><div class="job-modal-kicker">FreshBox</div><div class="job-modal-head"><div><h2 id="jobModalTitle">در حال آماده‌سازی</h2><p id="jobModalDetail">فرایند هنوز شروع نشده است.</p></div><strong id="jobModalPercent">۰٪</strong></div><div class="job-modal-overall"><span id="jobModalCount">۰ از ۰ برنامه</span><span id="jobModalSize">حجم دانلود: نامشخص</span></div><div class="modal-track"><i id="jobModalOverallBar"></i></div><div class="modal-stage"><span id="jobModalStage">آماده</span><strong id="jobModalAppPercent">۰٪</strong></div><div class="modal-track app-track"><i id="jobModalAppBar"></i></div><div class="job-modal-log" id="jobModalLog"></div><button class="job-modal-done" id="jobModalDone">بستن</button></div></div>
+  <div id="toast" class="toast"></div>
+  <script src="reviewed-catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

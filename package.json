@@ -1,0 +1,57 @@
+{
+  "name": "freshbox",
+  "version": "0.2.1",
+  "description": "FreshBox - نصب سریع نرم‌افزارهای ضروری ویندوز تازه",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "fetch:icons": "node tools/fetch-icons.js",
+    "build:portable": "node tools/stage-release.js && electron-builder --win portable",
+    "build:setup": "node tools/stage-release.js && electron-builder --win nsis",
+    "build:all": "node tools/stage-release.js && electron-builder --win nsis portable",
+    "audit:catalog": "node tools/audit-catalog.js",
+    "test": "node --test tests/catalog.test.js"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.12",
+    "playwright": "^1.65.1",
+    "sharp": "^0.35.4"
+  },
+  "build": {
+    "appId": "com.freshbox.setup",
+    "productName": "FreshBox",
+    "directories": {"app":"release-source","output":"dist"},
+    "artifactName": "FreshBox-Portable-${version}.${ext}",
+    "asar": false,
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "reviewed-catalog.js",
+      "install-plan.js",
+      "main.js",
+      "preload.js",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "artifactName": "FreshBox-Setup-${version}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false
+    },
+    "portable": {
+      "artifactName": "FreshBox-Portable-${version}.${ext}"
+    }
+  }
+}
