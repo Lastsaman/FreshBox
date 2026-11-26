@@ -87,7 +87,7 @@
     ['CPUID.CPU-Z','CPU-Z','system','نمایش مشخصات CPU، مادربرد و حافظه رم'],
     ['CPUID.HWMonitor','HWMonitor','system','پایش دما، ولتاژ و سرعت فن سخت‌افزار'],
     ['Guru3D.Afterburner','MSI Afterburner','system','پایش و تنظیم GPU؛ تغییر فرکانس نیازمند آگاهی است','','msi'],
-    ['AntibodySoftware.WizTree','WizTree','system','پیدا کردن فایل‌ها و پوشه‌های حجیم روی دیسک'],
+    ['UderzoSoftware.SpaceSniffer','SpaceSniffer','system','بررسی گرافیکی مصرف فضای دیسک با نسخه‌ی قابل‌حمل'],
     ['WinDirStat.WinDirStat','WinDirStat','system','نمایش گرافیکی مصرف فضای دیسک بر اساس فایل‌ها'],
     ['Klocman.BulkCrapUninstaller','Bulk Crap Uninstaller','system','حذف گروهی برنامه‌ها و بررسی آثار باقی‌مانده'],
     ['RevoUninstaller.RevoUninstaller','Revo Uninstaller','system','حذف برنامه‌ها و جست‌وجوی فایل‌های باقی‌مانده'],
