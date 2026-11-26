@@ -1,12 +1,25 @@
 const { app, BrowserWindow, ipcMain, dialog, shell } = require('electron');
 const { execFile, spawn } = require('child_process');
+const fs = require('fs');
 const path = require('path');
 const {resolveSelection,installArgs} = require('./install-plan');
 let jobBusy = false;
+// Keep two WinGet jobs active to shorten batch setup time without saturating
+// a new PC's disk or making installer prompts compete with each other.
+const INSTALL_CONCURRENCY = Math.max(1, Math.min(2, Number(process.env.FRESHBOX_INSTALL_CONCURRENCY) || 2));
+const DOWNLOAD_ATTEMPTS = 2;
 
 const startupLog = path.join(app.getPath('temp'), 'FreshBox-startup.log');
 function startup(message) {
-  try { require('fs').appendFileSync(startupLog, `[${new Date().toISOString()}] ${message}\n`); } catch (_) {}
+  try { fs.appendFileSync(startupLog, `[${new Date().toISOString()}] ${message}\n`); } catch (_) {}
+}
+
+function writeJobLog(entry) {
+  try {
+    const dir = path.join(app.getPath('userData'), 'logs');
+    fs.mkdirSync(dir, { recursive: true });
+    fs.appendFileSync(path.join(dir, 'FreshBox-installs.jsonl'), `${JSON.stringify({ at: new Date().toISOString(), ...entry })}\n`);
+  } catch (_) {}
 }
 
 // Some Windows GPU drivers crash Chromium before the renderer can create a window.
@@ -33,7 +46,7 @@ function createWindow() {
   win.loadFile(path.join(__dirname, 'index.html')).catch(error => startup(`loadFile-error ${error.message}`));
 }
 
-function streamWinget(sender, args, id, total, type) {
+function streamWinget(sender, args, id, total, type, { emitTerminal = true } = {}) {
   return new Promise(resolve => {
     const child = spawn('winget', args, { windowsHide: true, shell: false });
     let output = '';
@@ -41,6 +54,7 @@ function streamWinget(sender, args, id, total, type) {
     let lastProgress = -1;
     let lastPhase = '';
     let settled = false;
+    const startedAt = Date.now();
     const sendLine = line => {
       const text = String(line || '').trim();
       if (!text) return;
@@ -65,7 +79,7 @@ function streamWinget(sender, args, id, total, type) {
       if (settled) return;
       settled = true;
       const message = error.code === 'ENOENT' ? 'WinGet روی این ویندوز پیدا نشد.' : error.message;
-      sender.send('job-progress', { id, state: 'failed', message, phase: 'خطا' });
+      if (emitTerminal) sender.send('job-progress', { id, state: 'failed', message, phase: 'خطا' });
       resolve({ id, ok: false, output: message, error: error.code || 'spawn-error' });
     });
     child.on('close', code => {
@@ -73,10 +87,42 @@ function streamWinget(sender, args, id, total, type) {
       settled = true;
       if (buffer.trim()) sendLine(buffer);
       const ok = code === 0;
-      sender.send('job-progress', { id, state: ok ? 'done' : 'failed', message: ok ? `${id} با موفقیت انجام شد` : `${id} با کد خطای ${code ?? 'نامشخص'} متوقف شد`, phase: ok ? 'کامل شد' : 'ناموفق', percent: ok ? 100 : lastProgress });
-      resolve({ id, ok, output: output.trim().slice(-2400), code });
+      if (emitTerminal) sender.send('job-progress', { id, state: ok ? 'done' : 'failed', message: ok ? `${id} با موفقیت انجام شد` : `${id} با کد خطای ${code ?? 'نامشخص'} متوقف شد`, phase: ok ? 'کامل شد' : 'ناموفق', percent: ok ? 100 : lastProgress });
+      resolve({ id, ok, output: output.trim().slice(-2400), code, elapsedMs: Date.now() - startedAt });
     });
   });
+}
+
+function isTransientDownloadFailure(result) {
+  if (result.error === 'ENOENT') return false;
+  return /(download|network|timeout|timed out|connection|temporar|0x8a150008|http\s*(429|5\d\d)|failed to connect)/i.test(result.output || '');
+}
+
+async function runWingetWithRetry(sender, args, id, total, type) {
+  for (let attempt = 1; attempt <= DOWNLOAD_ATTEMPTS; attempt++) {
+    const result = await streamWinget(sender, args, id, total, type, { emitTerminal: attempt === DOWNLOAD_ATTEMPTS });
+    if (result.ok || !isTransientDownloadFailure(result) || attempt === DOWNLOAD_ATTEMPTS) {
+      if (!result.ok && attempt < DOWNLOAD_ATTEMPTS) sender.send('job-progress', { id, state: 'failed', message: `${id} با خطا متوقف شد`, phase: 'ناموفق', percent: 0 });
+      writeJobLog({ type, id, ok: result.ok, attempt, code: result.code || result.error || null, elapsedMs: result.elapsedMs || null, output: result.output });
+      return result;
+    }
+    sender.send('job-progress', { id, state: 'running', message: `${id}: تلاش دوباره برای دانلود (${attempt + 1}/${DOWNLOAD_ATTEMPTS})`, phase: 'تلاش دوباره', percent: 0 });
+    await new Promise(resolve => setTimeout(resolve, 1200));
+  }
+}
+
+async function runConcurrent(plans, limit, worker) {
+  const results = new Array(plans.length);
+  let next = 0;
+  async function consume() {
+    while (true) {
+      const index = next++;
+      if (index >= plans.length) return;
+      results[index] = await worker(plans[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, plans.length) }, consume));
+  return results;
 }
 
 ipcMain.handle('run-winget', async (_event, ids, requestedLocation) => {
@@ -87,11 +133,14 @@ ipcMain.handle('run-winget', async (_event, ids, requestedLocation) => {
   jobBusy=true;
   const results=[];
   try {
-    _event.sender.send('job-start',{type:'install',total:items.length});
-    for(const {item,args} of plans) {
+    const concurrency = Math.min(INSTALL_CONCURRENCY, plans.length);
+    _event.sender.send('job-start',{type:'install',total:items.length,concurrency});
+    writeJobLog({ type: 'install-batch', total: items.length, concurrency, ids: items.map(item => item.id) });
+    const completed = await runConcurrent(plans, concurrency, async ({item,args}) => {
       _event.sender.send('job-progress',{id:item.id,state:'running',message:`شروع ${item.name}`,phase:'آماده‌سازی',percent:0});
-      results.push(await streamWinget(_event.sender,args,item.id,items.length,'install'));
-    }
+      return runWingetWithRetry(_event.sender,args,item.id,items.length,'install');
+    });
+    results.push(...completed);
     _event.sender.send('job-finished',{type:'install',results});
     return {ok:results.every(r=>r.ok),results};
   } finally {jobBusy=false;}
@@ -108,6 +157,7 @@ ipcMain.handle('check-winget', async (_event, ids) => {
       const args=['show','--id',item.id,'--exact','--source',item.source,'--accept-source-agreements','--disable-interactivity'];
       const result=await new Promise(resolve=>execFile('winget',args,{windowsHide:true,timeout:60000},(error,stdout='',stderr='')=>resolve({id:item.id,ok:!error,output:(stdout+stderr).slice(-4000),error:error?.code||null})));
       results.push(result);
+      writeJobLog({ type: 'check', id: item.id, ok: result.ok, code: result.error || null, output: result.output });
       _event.sender.send('job-progress',{id:item.id,state:result.ok?'done':'failed',message:result.ok?`${item.name}: شناسه و نسخه تأیید شد`:`${item.name}: ${result.output||result.error}`,phase:result.ok?'معتبر':'ناموفق',percent:result.ok?100:0});
     }
     _event.sender.send('job-finished',{type:'check',results});
