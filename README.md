@@ -2,27 +2,45 @@
 
 ![FreshBox](assets/freshbox-logo.png)
 
-[دانلود نسخه نصبی و پرتابل · Download Setup & Portable](https://github.com/Lastsaman/FreshBox/releases/latest)
+[آخرین نسخه برای ویندوز · Latest Windows release](https://github.com/Lastsaman/FreshBox/releases/latest)
 
 ## فارسی
 
-فرش‌باکس ابزاری برای آماده‌کردن ویندوز تازه است: از میان ۱۴۵ برنامه کاربردی انتخاب کنید و نصب را به Windows Package Manager بسپارید. دسته‌بندی روشن، توضیح کاربرد هر برنامه، آیکون‌های WebP محلی، جست‌وجو، انتخاب گروهی، مسیر نصب دلخواه و گزارش پیشرفت در دسترس است. هیچ برنامه‌ای پیش‌فرض تیک ندارد.
+بعد از نصب ویندوز، معمولاً اولین کار این است که مرورگر، پیام‌رسان، ابزار فشرده‌سازی، پخش‌کننده و چند برنامه‌ی ضروری دیگر را دوباره پیدا و نصب کنیم. FreshBox برای کوتاه‌کردن همین مسیر ساخته شده است.
 
-رابط فارسی، انگلیسی و روسی دارد. شناسه و منبع هر برنامه صریح است؛ واتس‌اپ از Microsoft Store دریافت می‌شود. نرم‌افزارهای تجاری همچنان به مجوز خودشان نیاز دارند. مسیر سفارشی فقط برای نصاب‌های پشتیبان آن اعمال می‌شود.
+برنامه را باز کن، مواردی را که لازم داری تیک بزن و نصب را شروع کن. FreshBox از WinGet استفاده می‌کند تا هر برنامه را با شناسه‌ی مشخص و از منبع ثبت‌شده‌ی خودش بگیرد. فهرست فعلی ۱۴۵ برنامه دارد و هیچ موردی از اول انتخاب نشده است.
 
-**نصب:** فایل Setup را از Releases دریافت و اجرا کنید. **پرتابل:** فایل Portable.zip را کامل استخراج و `FreshBox.exe` را اجرا کنید؛ DLLها و پوشه resources باید کنار EXE بمانند.
+در نسخه‌ی جدید، وقتی چند برنامه را با هم نصب می‌کنی، دو دانلود/نصب هم‌زمان انجام می‌شود تا زمان انتظار کمتر شود. اگر یک دانلود موقتاً شکست بخورد، FreshBox یک بار دیگر تلاش می‌کند. پیشرفت هر برنامه، پیام WinGet و نتیجه‌ی نهایی در پنجره‌ی وضعیت دیده می‌شود و گزارش متنی اجرا هم در پوشه‌ی لاگ برنامه ذخیره می‌شود.
 
-پیش‌نیاز: Windows 10/11 نسخه ۶۴ بیتی، اینترنت و WinGet. دریافت بسته‌های Store ممکن است به دسترسی فروشگاه نیاز داشته باشد. درخواست‌های امنیتی ویندوز و نصاب‌ها باید توسط کاربر تأیید شوند.
+عمداً WinGet را دور نمی‌زنیم و لینک‌ها را با یک دانلودکننده‌ی ناشناس جایگزین نمی‌کنیم. WinGet قبل از در اختیار گذاشتن فایل، هش مانیفست را بررسی می‌کند و برنامه‌های Microsoft Store هم مسیر مخصوص خودشان را دارند. چندپارتی‌کردن خامِ لینک‌ها می‌تواند این کنترل‌ها یا نصب Store را خراب کند؛ بنابراین سرعت را با صف هم‌زمان، تلاش مجدد و حفظ بررسی رسمی بالا برده‌ایم.
+
+### اجرا
+
+- **Setup:** فایل Setup را دانلود و اجرا کن؛ محل نصب را خودت انتخاب می‌کنی.
+- **Portable:** فایل ZIP را کامل استخراج کن و `FreshBox.exe` را اجرا کن. فایل‌های DLL و پوشه‌ی `resources` باید کنار EXE باقی بمانند.
+
+پیش‌نیازها: Windows 10 یا 11 نسخه‌ی ۶۴ بیتی، اینترنت و WinGet (App Installer). بعضی برنامه‌ها از Microsoft Store می‌آیند و برای آن‌ها دسترسی Store لازم است. درخواست‌های UAC و پیام‌های امنیتی ویندوز عمداً تحت کنترل خود کاربر باقی می‌مانند.
+
+مسیر پیش‌فرض نصب `C:\Program Files` است. اگر می‌خواهی برنامه‌ها روی درایو دیگری نصب شوند، مسیر را قبل از شروع انتخاب کن؛ پشتیبانی از مسیر سفارشی به قابلیت همان نصاب بستگی دارد.
 
 ## English
 
-FreshBox helps set up a freshly installed Windows PC. Select from 145 practical applications and install them through Windows Package Manager. It includes clear categories, Persian application descriptions, bundled WebP icons, search, batch selection, a custom installation folder, and progress logs. Nothing is selected by default.
+After a fresh Windows install, the same routine starts again: find a browser, a messenger, an archive tool, a media player, and a handful of everyday apps. FreshBox is a small, focused way to get through that routine faster.
 
-The interface supports Persian, English, and Russian. Each application has an explicit package ID and source. WhatsApp uses Microsoft Store. Commercial applications still require their own licenses, and custom install folders only work with installers that support them.
+Open the app, select what you need, and start the setup. FreshBox uses WinGet, with an explicit package ID and source for every entry. The current catalogue contains 145 apps, and nothing is selected by default.
 
-**Setup:** download and run the Setup executable from Releases. **Portable:** extract the entire Portable.zip archive and run `FreshBox.exe`; keep its DLLs and resources directory beside it.
+When several apps are selected, the current build runs two WinGet jobs at a time instead of making every item wait for the previous one. A temporary download failure gets one retry. The window shows per-app progress, WinGet output, and the final result; a text log is also kept in the app data folder.
 
-Requires 64-bit Windows 10/11, an internet connection, and WinGet. Store packages require Microsoft Store access. Windows and installer security prompts remain under the user's control.
+FreshBox deliberately keeps WinGet in charge of downloading and installing. WinGet verifies installer hashes from package manifests, and Microsoft Store packages follow a different delivery path. A blind multi-part downloader could bypass those checks or break Store installs, so FreshBox improves throughput with a small concurrent queue and safe retries rather than replacing the trusted installer path.
+
+### Running it
+
+- **Setup:** download and run the Setup executable. The installer lets you choose where FreshBox itself is installed.
+- **Portable:** extract the complete ZIP archive and run `FreshBox.exe`. Keep its DLL files and the `resources` folder beside it.
+
+Requirements: 64-bit Windows 10 or 11, an internet connection, and WinGet (App Installer). Store packages may require Microsoft Store access. UAC and Windows security prompts remain visible and user-controlled.
+
+The default application location is `C:\Program Files`. You can choose another base folder before starting; the final installer decides whether a custom location is supported.
 
 ## Development / توسعه
 
@@ -35,14 +53,14 @@ node tools/smoke-ui.js
 npm run build:all
 ```
 
-Electron and plain JavaScript; the catalog is in `reviewed-catalog.js`. The build stages clean application files in `release-source`. Reports live in `reports`.
+Electron و JavaScript ساده؛ کاتالوگ در `reviewed-catalog.js` است و فایل‌های موقت بیلد در `release-source` قرار می‌گیرند. گزارش‌های بررسی در `reports` نگه‌داری می‌شوند.
 
-الکترون و جاوااسکریپت ساده؛ فهرست برنامه‌ها در فایل بالا و گزارش بررسی منابع در پوشه reports است. ساخت از پوشه تمیز release-source انجام می‌شود.
+This is an Electron app written in plain JavaScript. The catalogue lives in `reviewed-catalog.js`; build staging uses `release-source`, and audit reports are kept under `reports`.
 
-## Verification / حدود آزمون
+## What has been checked / چه چیزهایی بررسی شده
 
-All 145 package identities were checked. 144 direct installer URLs responded successfully, and one Store identity was verified. Two sample installers (7-Zip and SumatraPDF) were fully downloaded and hash-checked. Every application has a local WebP image; some Windows components use their publisher's mark. See [icon sources and notices](THIRD_PARTY_NOTICES.md).
+All 145 package identities have been checked against WinGet. The current audit has 144 direct installer entries and one Microsoft Store entry. Seven-Zip and SumatraPDF were downloaded completely and hash-checked; no installer is executed by the audit. Every catalogue item has a local WebP icon. This does not promise that every installer will behave identically on every Windows machine.
 
-شناسه‌های ۱۴۵ برنامه بررسی شده‌اند: لینک مستقیم ۱۴۴ نصاب پاسخ موفق داده و یک محصول Store تأیید شده است. دانلود کامل و صحت هش دو نمونه آزمایش شده؛ همه برنامه‌ها روی سیستم نصب نشده‌اند. دسترسی آینده لینک‌ها و موفقیت نصب روی همه دستگاه‌ها تضمین نمی‌شود.
+شناسه‌ی هر ۱۴۵ برنامه با WinGet بررسی شده است: ۱۴۴ مورد لینک مستقیم نصاب و یک مورد Microsoft Store دارند. دانلود کامل و بررسی هش برای نمونه‌های 7-Zip و SumatraPDF انجام شده و در مرحله‌ی بررسی هیچ نصابی اجرا نمی‌شود. همه‌ی برنامه‌ها آیکون WebP محلی دارند؛ با این حال رفتار نصاب‌ها روی همه‌ی سیستم‌ها یکسان تضمین نمی‌شود.
 
 Created by [lastsaman](https://t.me/LASTsaman) · ساخته‌شده توسط lastsaman
